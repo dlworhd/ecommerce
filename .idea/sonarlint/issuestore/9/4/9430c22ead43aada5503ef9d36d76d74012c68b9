@@ -1,0 +1,23 @@
+
+U
+java:S1118	":Add a private constructor to hide the implicit public one.(°Å½Òşÿÿÿÿ
+t	java:S116"_Rename this field "next_redirect_pc_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¼Ñí
+n	java:S116!"TRename this field "item_Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃºæÈıÿÿÿÿ
+m	java:S116""SRename this field "pg_token" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÆƒùÿÿÿÿ
+u	java:S116#"[Rename this field "partner_order_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïˆªİıÿÿÿÿ
+o	java:S116$"ZRename this field "partner_user_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÌŞ­
+x	java:S116%"^Rename this field "payment_method_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¼Šãøÿÿÿÿ
+t	java:S116&"_Rename this field "next_redirect_pc_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¼Ñí
+r	java:S116("XRename this field "cancel_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÄÕšùÿÿÿÿ
+{	java:S116)"aRename this field "cancel_tax_free_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ıó¯ıÿÿÿÿ
+j	java:S116*"URename this field "created_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(† ¬Ì
+k	java:S116+"VRename this field "approved_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õõÉˆ
+v	java:S116."aRename this field "approved_cancel_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒó»©
+h	java:S1165"SRename this field "tax_free" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Œ²û
+m	java:S1169"XRename this field "green_deposit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±°Öë
+w	java:S116?"]Rename this field "method_result_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìı¨Ğıÿÿÿÿ
+z	java:S116@"`Rename this field "method_result_message" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÿï´øÿÿÿÿ
+h	java:S116G"SRename this field "tax_free" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Â‰»
+r	java:S116K"XRename this field "green_deposit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºä¨ÿÿÿÿÿ
+r	java:S116U"XRename this field "cancel_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÄÕšùÿÿÿÿ
+{	java:S116V"aRename this field "cancel_tax_free_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ıó¯ıÿÿÿÿ

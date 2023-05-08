@@ -23,6 +23,8 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -57,7 +59,9 @@ public class OrderService implements OrderUseCase {
 	public String createOrder(Order order) {
 		OrderEntity orderEntity = orderPersistencePort.createOrder(order);
 
-		MultiValueMap<String, Object> params = paramBuilder(orderEntity);
+		String orderName = createOrderName(order);
+
+		MultiValueMap<String, Object> params = paramBuilder(orderEntity,orderName);
 		HttpHeaders headers = new HttpHeaders();
 		headers.set("Authorization", admin_key);
 		headers.set("Content-type", MediaType.APPLICATION_FORM_URLENCODED_VALUE + FORMATTING_SUFFIX);
@@ -68,7 +72,7 @@ public class OrderService implements OrderUseCase {
 						String.class)
 				.getBody(), KakaoPay.ReadyResponse.class);
 		readyResponse.setOrderId(orderEntity.getId());
-		readyResponse.setOrderName(orderEntity.getOrderName());
+		readyResponse.setOrderName(orderName);
 
 		// Payment에 정보를 보내야 함(RestTemplate)
 		paymentRequest(readyResponse);
@@ -82,6 +86,9 @@ public class OrderService implements OrderUseCase {
 		orderPersistencePort.cancelOrder(orderId);
 	}
 
+
+
+
 	private void paymentRequest(KakaoPay.ReadyResponse readyResponse) {
 		HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.APPLICATION_JSON);
@@ -92,12 +99,12 @@ public class OrderService implements OrderUseCase {
 		}
 	}
 
-	private MultiValueMap<String, Object> paramBuilder(OrderEntity order) {
+	private MultiValueMap<String, Object> paramBuilder(OrderEntity order, String orderName) {
 		MultiValueMap<String, Object> params = new LinkedMultiValueMap<>();
 		params.add("cid", cid);
 		params.add("partner_order_id", order.getId());
 		params.add("partner_user_id", " ");
-		params.add("item_name", order.getOrderName());
+		params.add("item_name", orderName);
 		params.add("quantity", order.getTotalQuantity());
 		params.add("total_amount", order.getTotalAmount());
 		params.add("tax_free_amount", 0);
@@ -120,5 +127,14 @@ public class OrderService implements OrderUseCase {
 	public void statusToCanceled(String orderId) {
 		OrderEntity order = orderPersistencePort.getOrder(orderId);
 		order.setOrderStatus(OrderStatus.CANCELED);
+	}
+
+
+	public String createOrderName(Order order){
+		List<Long> productIds = order.getProductInfos().stream().map(product -> product.getId()).collect(Collectors.toList());
+		//TODO: productIds보내서 OrderName 만들기
+
+		HttpEntity<List<Long>> httpEntity = new HttpEntity<>(productIds, null);
+		return restTemplate.postForObject("http://localhost:8081/products/name", httpEntity, String.class);
 	}
 }

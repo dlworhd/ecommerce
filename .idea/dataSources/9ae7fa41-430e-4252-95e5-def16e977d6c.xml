@@ -1370,7 +1370,7 @@
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
     <column id="527" parent="524" name="id">
-      <AutoIncrement>3</AutoIncrement>
+      <AutoIncrement>7</AutoIncrement>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1379,88 +1379,84 @@
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="529" parent="524" name="product_name">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="529" parent="524" name="total_amount">
+      <DasType>bigint(20)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="530" parent="524" name="total_amount">
+    <column id="530" parent="524" name="total_quantity">
       <DasType>bigint(20)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="531" parent="524" name="total_quantity">
-      <DasType>bigint(20)|0s</DasType>
+    <column id="531" parent="524" name="order_id">
+      <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="532" parent="524" name="order_id">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>6</Position>
-    </column>
-    <foreign-key id="533" parent="524" name="FKt4dc2r9nbvbujrljv3e23iibt">
+    <foreign-key id="532" parent="524" name="FKt4dc2r9nbvbujrljv3e23iibt">
       <ColNames>order_id</ColNames>
       <RefColNames>order_id</RefColNames>
       <RefTableName>orders</RefTableName>
     </foreign-key>
-    <index id="534" parent="524" name="PRIMARY">
+    <index id="533" parent="524" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="535" parent="524" name="FKt4dc2r9nbvbujrljv3e23iibt">
+    <index id="534" parent="524" name="FKt4dc2r9nbvbujrljv3e23iibt">
       <ColNames>order_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="536" parent="524" name="PRIMARY">
+    <key id="535" parent="524" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="537" parent="525" name="id">
+    <column id="536" parent="525" name="id">
       <AutoIncrement>2</AutoIncrement>
       <DasType>bigint(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="538" parent="525" name="last_sequence">
+    <column id="537" parent="525" name="last_sequence">
       <DasType>bigint(20)|0s</DasType>
       <Position>2</Position>
     </column>
-    <index id="539" parent="525" name="PRIMARY">
+    <index id="538" parent="525" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="540" parent="525" name="PRIMARY">
+    <key id="539" parent="525" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="541" parent="526" name="order_id">
+    <column id="540" parent="526" name="order_id">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="542" parent="526" name="addr">
+    <column id="541" parent="526" name="addr">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="543" parent="526" name="name">
+    <column id="542" parent="526" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="544" parent="526" name="order_status">
+    <column id="543" parent="526" name="order_status">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="545" parent="526" name="phone_num">
+    <column id="544" parent="526" name="phone_num">
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="546" parent="526" name="PRIMARY">
+    <index id="545" parent="526" name="PRIMARY">
       <ColNames>order_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="547" parent="526" name="PRIMARY">
+    <key id="546" parent="526" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

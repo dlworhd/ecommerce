@@ -50,16 +50,16 @@ public class OrderEntity {
 		this.orderItemEntities.add(orderItemEntity);
 	}
 
-	public String getOrderName(){
-		String customOrderName = "";
-
-		if (this.orderItemEntities != null && this.orderItemEntities.size() > 0) {
-			customOrderName = this.orderItemEntities.size() > 1 ?
-					this.orderItemEntities.get(0).getProductName() + " 외 " + (this.orderItemEntities.size() - 1) + "개" :
-					this.orderItemEntities.get(0).getProductName();
-		}
-		return customOrderName;
-	}
+//	public String getOrderName(){
+//		String customOrderName = "";
+//
+//		if (this.orderItemEntities != null && this.orderItemEntities.size() > 0) {
+//			customOrderName = this.orderItemEntities.size() > 1 ?
+//					this.orderItemEntities.get(0).getProductName() + " 외 " + (this.orderItemEntities.size() - 1) + "개" :
+//					this.orderItemEntities.get(0).getProductName();
+//		}
+//		return customOrderName;
+//	}
 
 	public Long getTotalAmount() {
 		return this.orderItemEntities.stream()

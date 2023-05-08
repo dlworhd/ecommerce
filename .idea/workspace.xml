@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="518850c3-8651-44f2-a02a-798221dc63d5" name="Changes" comment="" />
+    <list default="true" id="518850c3-8651-44f2-a02a-798221dc63d5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/in/ProductUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/in/ProductUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/out/ProductPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/out/ProductPersistencePort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/application/service/ShipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/application/service/ShipmentService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +155,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39234447",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "553190562f41e5aa644495f61966a41c",
+    "spring.configuration.checksum": "0be00a9a60853f046b773de518a09790",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -172,7 +187,7 @@
       <recent name="com.hexagonal.order.infrastructure.jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Spring Boot.ProductApplication (1)">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hexagonal.apigateway.ApiGatewayApplication" />
       <module name="api-gateway.main" />
@@ -377,7 +392,8 @@
       <updated>1683348985483</updated>
       <workItem from="1683348986603" duration="5822000" />
       <workItem from="1683354880827" duration="24402000" />
-      <workItem from="1683467865235" duration="37120000" />
+      <workItem from="1683467865235" duration="38096000" />
+      <workItem from="1683564925451" duration="2238000" />
     </task>
     <servers />
   </component>

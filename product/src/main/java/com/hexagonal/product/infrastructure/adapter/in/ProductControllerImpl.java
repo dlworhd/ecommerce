@@ -9,6 +9,8 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequiredArgsConstructor
 public class ProductControllerImpl implements ProductController{
@@ -37,5 +39,10 @@ public class ProductControllerImpl implements ProductController{
 	public ResponseEntity<Void> deleteProduct(@RequestBody Long productId) {
 		productUseCase.deleteProduct(productId);
 		return ResponseEntity.ok().build();
+	}
+
+	@Override
+	public ResponseEntity<?> getProductsName(List<Long> productIds) {
+		return ResponseEntity.ok(productUseCase.getProductsName(productIds));
 	}
 }

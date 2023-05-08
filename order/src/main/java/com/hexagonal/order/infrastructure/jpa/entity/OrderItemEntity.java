@@ -22,14 +22,12 @@ public class OrderItemEntity {
 	private OrderEntity order;
 
 	private Long productId;
-	private String productName;
 	private Long totalQuantity;
 	private Long totalAmount;
 
 	public static OrderItemEntity from(Order.ProductInfo productInfo) {
 
 		return OrderItemEntity.builder()
-				.productName(productInfo.getProductName())
 				.totalAmount(productInfo.getPrice() * productInfo.getQuantity())
 				.totalQuantity(productInfo.getQuantity())
 				.productId(productInfo.getId())

@@ -6,6 +6,8 @@ import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 @RequiredArgsConstructor
 public class ProductPersistenceAdapter implements ProductPersistencePort {
@@ -30,6 +32,12 @@ public class ProductPersistenceAdapter implements ProductPersistencePort {
 	public void deleteProduct(Long productId) {
 		ProductEntity productEntity = getProductEntity(productId);
 		productRepository.delete(productEntity);
+	}
+
+	@Override
+	public List<ProductEntity> getProducts(List<Long> productIds) {
+		return productRepository.findAllById(productIds);
+
 	}
 
 	private ProductEntity getProductEntity(Long productId) {

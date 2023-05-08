@@ -13,6 +13,15 @@ public class Order {
 	private String addr;
 	private String phoneNum;
 	private List<ProductInfo> productInfos;
+//
+//	@Getter
+//	@Setter
+//	public static class ProductInfo{
+//		private Long id;
+//		private Long price;
+//		private Long quantity;
+//		private String productName;
+//	}
 
 	@Getter
 	@Setter
@@ -20,6 +29,5 @@ public class Order {
 		private Long id;
 		private Long price;
 		private Long quantity;
-		private String productName;
 	}
 }
