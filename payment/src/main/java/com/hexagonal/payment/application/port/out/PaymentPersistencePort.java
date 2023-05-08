@@ -7,7 +7,7 @@ public interface PaymentPersistencePort {
 
 	void createPayment(KakaoPay.ReadyResponse kakaoPay);
 	void savePayment(KakaoPay.ApprovalResponse kakaoPay);
-	KakaoPay.CancelInfo cancelPayment(Long paymentId);
+	PaymentEntity cancelPayment(Long paymentId);
 	PaymentEntity getPaymentEntity(String orderId);
 
 

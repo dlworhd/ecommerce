@@ -29,8 +29,4 @@ public class OrderControllerImpl implements OrderController {
 //		return ResponseEntity.ok(orderUseCase.getPayUrl(orderId));
 //	}
 
-	@Override
-	public ResponseEntity<?> getOrder(String orderId) {
-		 return ResponseEntity.ok(orderUseCase.getOrderInfoById(orderId));
-	}
 }

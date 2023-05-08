@@ -2,13 +2,11 @@ package com.hexagonal.order.infrastructure.adapter.out;
 
 import com.hexagonal.order.application.port.out.OrderPersistencePort;
 import com.hexagonal.order.domain.Order;
-import com.hexagonal.order.domain.OrderInfo;
 import com.hexagonal.order.infrastructure.jpa.*;
 import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
 import com.hexagonal.order.infrastructure.jpa.entity.OrderItemEntity;
 import com.hexagonal.order.infrastructure.jpa.repository.OrderItemRepository;
 import com.hexagonal.order.infrastructure.jpa.repository.OrderRepository;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -24,29 +22,28 @@ public class OrderPersistenceAdapter implements OrderPersistencePort {
 	private final OrderItemRepository orderItemRepository;
 
 	@Override
-	public OrderInfo createOrder(Order order) {
+	public OrderEntity createOrder(Order order) {
 		OrderEntity orderEntity = saverOrder(order);
 		addOrderItemInOrder(orderEntity, getOrderItemEntities(order));
-		return OrderInfo.from(orderEntity);
+		return orderEntity;
 	}
 
-	@Transactional
 	private OrderEntity saverOrder(Order order) {
 		return orderRepository.save(OrderEntity.from(order, orderGenerator));
 	}
 
 	@Override
-	@Transactional
-	public OrderInfo cancelOrder(String orderId) {
+	public void cancelOrder(String orderId) {
 		OrderEntity order = getOrderById(orderId);
 		order.setOrderStatus(OrderStatus.CANCELED);
-		return OrderInfo.from(order);
 	}
 
+
 	@Override
-	public OrderInfo getOrder(String orderId) {
-		return OrderInfo.from(getOrderById(orderId));
+	public OrderEntity getOrder(String orderId) {
+		return getOrderById(orderId);
 	}
+
 
 	private void addOrderItemInOrder(OrderEntity orderEntity, List<OrderItemEntity> orderItemEntities) {
 		orderItemEntities.stream()

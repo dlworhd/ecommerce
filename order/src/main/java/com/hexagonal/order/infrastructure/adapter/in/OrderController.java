@@ -16,6 +16,4 @@ public interface OrderController {
 //	@GetMapping("/orders/{orderId}/pay-url")
 //	ResponseEntity<?> getPayUrl(@PathVariable String orderId);
 
-	@GetMapping("/orders/{orderId}")
-	ResponseEntity<?> getOrder(@PathVariable String orderId);
 }

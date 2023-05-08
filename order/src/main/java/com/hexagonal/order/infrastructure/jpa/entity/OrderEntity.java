@@ -32,21 +32,45 @@ public class OrderEntity {
 	private String name;
 	private String phoneNum;
 
-	public static OrderEntity from(Order order, OrderGenerator orderGenerator){
+	public static OrderEntity from(Order order, OrderGenerator orderGenerator) {
 		return OrderEntity.builder()
 				.id(orderGenerator.generateOrderId())
 				.addr(order.getAddr())
 				.phoneNum(order.getPhoneNum())
 				.name(order.getName())
-				.orderStatus(OrderStatus.ORDERED)
+				.orderStatus(OrderStatus.NOT_ORDERED)
 				.build();
 	}
 
-	public void addOrderItemEntities(OrderItemEntity orderItemEntity){
-		if(this.orderItemEntities == null){
+	public void addOrderItemEntities(OrderItemEntity orderItemEntity) {
+		if (this.orderItemEntities == null) {
 			this.orderItemEntities = new ArrayList<>();
 		}
 		orderItemEntity.setOrder(this);
 		this.orderItemEntities.add(orderItemEntity);
 	}
+
+	public String getOrderName(){
+		String customOrderName = "";
+
+		if (this.orderItemEntities != null && this.orderItemEntities.size() > 0) {
+			customOrderName = this.orderItemEntities.size() > 1 ?
+					this.orderItemEntities.get(0).getProductName() + " 외 " + (this.orderItemEntities.size() - 1) + "개" :
+					this.orderItemEntities.get(0).getProductName();
+		}
+		return customOrderName;
+	}
+
+	public Long getTotalAmount() {
+		return this.orderItemEntities.stream()
+				.mapToLong(orderItemEntity -> orderItemEntity.getTotalAmount())
+				.sum();
+	}
+
+	public Long getTotalQuantity() {
+		return this.orderItemEntities.stream()
+				.mapToLong(orderItemEntity -> orderItemEntity.getTotalQuantity())
+				.sum();
+	}
+
 }

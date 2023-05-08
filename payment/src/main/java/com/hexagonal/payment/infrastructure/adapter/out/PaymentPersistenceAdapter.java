@@ -24,10 +24,8 @@ public class PaymentPersistenceAdapter implements PaymentPersistencePort {
 	}
 
 	@Override
-	public KakaoPay.CancelInfo cancelPayment(Long paymentId) {
-		PaymentEntity paymentEntity = getPaymentById(paymentId);
-		paymentEntity.setPaymentStatus(PaymentStatus.CANCELD_PAYMENT);
-		return KakaoPay.CancelInfo.from(paymentEntity);
+	public PaymentEntity cancelPayment(Long paymentId) {
+		return getPaymentById(paymentId);
 	}
 
 	@Override

@@ -172,7 +172,7 @@
       <recent name="com.hexagonal.order.infrastructure.jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentApplication">
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hexagonal.apigateway.ApiGatewayApplication" />
       <module name="api-gateway.main" />
@@ -377,7 +377,7 @@
       <updated>1683348985483</updated>
       <workItem from="1683348986603" duration="5822000" />
       <workItem from="1683354880827" duration="24402000" />
-      <workItem from="1683467865235" duration="34465000" />
+      <workItem from="1683467865235" duration="37120000" />
     </task>
     <servers />
   </component>

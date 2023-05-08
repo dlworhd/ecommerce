@@ -1,13 +1,11 @@
 package com.hexagonal.order.application.port.out;
 
 import com.hexagonal.order.domain.Order;
-import com.hexagonal.order.domain.OrderInfo;
-
-import java.util.Map;
+import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
 
 public interface OrderPersistencePort {
 
-	OrderInfo getOrder(String orderId);
-	OrderInfo createOrder(Order order);
-	OrderInfo cancelOrder(String orderId);
+	OrderEntity getOrder(String orderId);
+	OrderEntity createOrder(Order order);
+	void cancelOrder(String orderId);
 }

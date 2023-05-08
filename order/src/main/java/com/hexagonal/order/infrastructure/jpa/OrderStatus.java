@@ -1,5 +1,5 @@
 package com.hexagonal.order.infrastructure.jpa;
 
 public enum OrderStatus {
-	ORDERED, CANCELED
+	NOT_ORDERED, ORDERED, CANCELED
 }

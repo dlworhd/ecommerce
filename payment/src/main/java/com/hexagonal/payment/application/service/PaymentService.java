@@ -2,19 +2,19 @@ package com.hexagonal.payment.application.service;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.hexagonal.payment.application.config.LocalDateTimeDeserializer;
 import com.hexagonal.payment.application.port.in.PaymentUseCase;
 import com.hexagonal.payment.application.port.out.PaymentPersistencePort;
 import com.hexagonal.payment.domain.kakaopay.KakaoPay;
-import com.hexagonal.payment.application.config.LocalDateTimeDeserializer;
 import com.hexagonal.payment.infrastructure.jpa.entity.PaymentEntity;
 import com.hexagonal.payment.infrastructure.jpa.entity.PaymentStatus;
 import com.hexagonal.payment.infrastructure.jpa.entity.PaymentType;
 import jakarta.annotation.PostConstruct;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -42,7 +42,9 @@ public class PaymentService implements PaymentUseCase {
 	private Gson gson;
 
 	private String FORMATTING_SUFFIX = ";charset=UTF-8";
+
 	private final RestTemplate restTemplate;
+	private final KafkaTemplate<String, String> kafkaTemplate;
 	private final PaymentPersistencePort paymentPersistencePort;
 
 	@PostConstruct
@@ -87,23 +89,28 @@ public class PaymentService implements PaymentUseCase {
 			paymentEntity.setPaymentStatus(PaymentStatus.SUCCESSED_PAYMENT);
 			paymentEntity.setTotalAmount(approvalResponse.getAmount().getTotal());
 
+			sendKafkaMessage("payment-completed", paymentEntity.getOrderId());
+
 		} else {
 			throw new RuntimeException("Failed save payment info!");
 		}
 	}
 
+	private void sendKafkaMessage(String topic, String value) {
+		kafkaTemplate.send(topic, value);
+	}
+
 	@Override
 	@Transactional
 	public void cancelPayment(Long paymentId) {
-		paymentPersistencePort.cancelPayment(paymentId);
-
-		KakaoPay.CancelInfo cancelInfo = paymentPersistencePort.cancelPayment(paymentId);
+		PaymentEntity paymentEntity = paymentPersistencePort.cancelPayment(paymentId);
+		paymentEntity.setPaymentStatus(PaymentStatus.CANCELD_PAYMENT);
 
 		MultiValueMap<String, Object> params = new LinkedMultiValueMap<>();
 		params.add("cid", cid); //st
-		params.add("tid", cancelInfo.getTid()); //st
-		params.add("cancel_amount", cancelInfo.getCancel_amount()); //int
-		params.add("cancel_tax_free_amount", cancelInfo.getCancel_tax_free_amount()); //int
+		params.add("tid", paymentEntity.getTid()); //st
+		params.add("cancel_amount", paymentEntity.getTotalAmount()); //int
+		params.add("cancel_tax_free_amount", 0); //int
 
 		HttpHeaders headers = new HttpHeaders();
 		headers.set("Authorization", admin_key);
@@ -111,6 +118,9 @@ public class PaymentService implements PaymentUseCase {
 
 		// Kakao에 데이터 전송 후 Response 받기
 		ResponseEntity<String> response = restTemplate.postForEntity(KAKAO_PAYMENT_CANCEL_SERVER, new HttpEntity<>(params, headers), String.class);
+
+		sendKafkaMessage("payment-canceled", paymentEntity.getOrderId());
+
 
 		if (response.getStatusCode() != HttpStatus.OK) {
 			throw new RuntimeException("Failed save payment info!");

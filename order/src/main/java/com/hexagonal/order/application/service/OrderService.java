@@ -1,6 +1,7 @@
 package com.hexagonal.order.application.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.hexagonal.order.application.port.in.OrderUseCase;
@@ -8,11 +9,14 @@ import com.hexagonal.order.application.port.out.OrderPersistencePort;
 import com.hexagonal.order.domain.KakaoPay;
 import com.hexagonal.order.application.config.LocalDateTimeDeserializer;
 import com.hexagonal.order.domain.Order;
-import com.hexagonal.order.domain.OrderInfo;
+import com.hexagonal.order.infrastructure.jpa.OrderStatus;
+import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
 import jakarta.annotation.PostConstruct;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.*;
+import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -49,10 +53,11 @@ public class OrderService implements OrderUseCase {
 	}
 
 	@Override
-	public String createOrder(Order order){
-		OrderInfo orderInfo = orderPersistencePort.createOrder(order);
+	@Transactional
+	public String createOrder(Order order) {
+		OrderEntity orderEntity = orderPersistencePort.createOrder(order);
 
-		MultiValueMap<String, Object> params = paramBuilder(orderInfo);
+		MultiValueMap<String, Object> params = paramBuilder(orderEntity);
 		HttpHeaders headers = new HttpHeaders();
 		headers.set("Authorization", admin_key);
 		headers.set("Content-type", MediaType.APPLICATION_FORM_URLENCODED_VALUE + FORMATTING_SUFFIX);
@@ -62,8 +67,8 @@ public class OrderService implements OrderUseCase {
 						KAKAO_PAYMENT_READY_SERVER, new HttpEntity<>(params, headers),
 						String.class)
 				.getBody(), KakaoPay.ReadyResponse.class);
-		readyResponse.setOrderId(orderInfo.getOrderId());
-		readyResponse.setOrderName(orderInfo.getOrderName());
+		readyResponse.setOrderId(orderEntity.getId());
+		readyResponse.setOrderName(orderEntity.getOrderName());
 
 		// Payment에 정보를 보내야 함(RestTemplate)
 		paymentRequest(readyResponse);
@@ -72,13 +77,9 @@ public class OrderService implements OrderUseCase {
 	}
 
 	@Override
-	public OrderInfo cancelOrder(String orderId) {
-		return orderPersistencePort.cancelOrder(orderId);
-	}
-
-	@Override
-	public OrderInfo getOrderInfoById(String orderId) {
-		return orderPersistencePort.getOrder(orderId);
+	@Transactional
+	public void cancelOrder(String orderId) {
+		orderPersistencePort.cancelOrder(orderId);
 	}
 
 	private void paymentRequest(KakaoPay.ReadyResponse readyResponse) {
@@ -91,20 +92,33 @@ public class OrderService implements OrderUseCase {
 		}
 	}
 
-	private MultiValueMap<String, Object> paramBuilder(OrderInfo orderInfo) {
+	private MultiValueMap<String, Object> paramBuilder(OrderEntity order) {
 		MultiValueMap<String, Object> params = new LinkedMultiValueMap<>();
 		params.add("cid", cid);
-		params.add("partner_order_id", orderInfo.getOrderId());
+		params.add("partner_order_id", order.getId());
 		params.add("partner_user_id", " ");
-		params.add("item_name", orderInfo.getOrderName());
-		params.add("quantity", orderInfo.getTotalQuantity());
-		params.add("total_amount", orderInfo.getTotalAmount());
+		params.add("item_name", order.getOrderName());
+		params.add("quantity", order.getTotalQuantity());
+		params.add("total_amount", order.getTotalAmount());
 		params.add("tax_free_amount", 0);
-		params.add("approval_url", PAYMENT_SERVER + "/payments" + "/approval?partner_order_id=" + orderInfo.getOrderId());
+		params.add("approval_url", PAYMENT_SERVER + "/payments" + "/approval?partner_order_id=" + order.getId());
 		params.add("fail_url", PAYMENT_SERVER + "/payments" + "/fail");
 		params.add("cancel_url", PAYMENT_SERVER + "/payments" + "/cancel");
 		return params;
 	}
 
+	@Transactional
+	@KafkaListener(topics = "payment-completed")
+	public void statusToOrdered(String orderId) {
+		OrderEntity order = orderPersistencePort.getOrder(orderId);
+		order.setOrderStatus(OrderStatus.ORDERED);
 
+	}
+
+	@Transactional
+	@KafkaListener(topics = "payment-canceled")
+	public void statusToCanceled(String orderId) {
+		OrderEntity order = orderPersistencePort.getOrder(orderId);
+		order.setOrderStatus(OrderStatus.CANCELED);
+	}
 }
