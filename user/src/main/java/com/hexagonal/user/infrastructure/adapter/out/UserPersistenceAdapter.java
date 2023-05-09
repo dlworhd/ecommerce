@@ -8,6 +8,8 @@ import com.hexagonal.user.infrastructure.jpa.UserStatus;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
+import java.util.Optional;
+
 @Component
 @RequiredArgsConstructor
 public class UserPersistenceAdapter implements UserPersistencePort {
@@ -16,6 +18,7 @@ public class UserPersistenceAdapter implements UserPersistencePort {
 
 	@Override
 	public void createUser(User user) {
+		if (userRepository.existsByEmail(user.getEmail())) throw new RuntimeException("Duplicated User!");
 		userRepository.save(UserEntity.from(user));
 	}
 
@@ -33,5 +36,14 @@ public class UserPersistenceAdapter implements UserPersistencePort {
 	public void deleteUser(User user) {
 		UserEntity userEntity = getUserEntityByEmail(user.getEmail());
 		userEntity.setUserStatus(UserStatus.UNACTIVE);
+	}
+
+	@Override
+	public void login(User user) {
+		UserEntity userEntity = getUserEntityByEmail(user.getEmail());
+
+		if (!userEntity.getPassword().equals(user.getPassword())) {
+			throw new RuntimeException("Password not equal");
+		}
 	}
 }

@@ -1,14 +1,10 @@
 
 m
 =order/src/main/java/com/hexagonal/order/OrderApplication.java,4/5/4509e242310b0e3bec81a85e3b422dc6cdee0be7
-H
-api-gateway/build.gradle,6/8/68a416ff071be67c370ccc417719b65106ae9180
 J
 eureka-server/build.gradle,9/2/926f3c0072d8ffed034ab5418b00a4ab803f7479
 =
 order/HELP.md,8/9/899e01f1cdb6b2c07ad5a9dcddf0e06dbbf28341
-C
-common/build.gradle,5/c/5c23a73f3b1be7d6214194048e5ccd4842575f5c
 B
 order/build.gradle,a/e/aeac4a66d347b9d9ebd7ccb20b0e0b04264f7117
 D

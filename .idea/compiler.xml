@@ -24,6 +24,10 @@
     <bytecodeTargetLevel>
       <module name="base.main" target="17" />
       <module name="base.test" target="17" />
+      <module name="common" target="17" />
+      <module name="common.main" target="17" />
+      <module name="common.querydsl" target="17" />
+      <module name="common.test" target="17" />
       <module name="hexagonal" target="17" />
       <module name="hexagonal.main" target="17" />
       <module name="hexagonal.test" target="17" />

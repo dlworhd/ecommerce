@@ -7,9 +7,8 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Token {
 
-	private String email;
-	private String password;
+	private String token;
 
 }

@@ -2,10 +2,7 @@ package com.hexagonal.user.infrastructure.jpa;
 
 import com.hexagonal.user.domain.User;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.beans.BeanUtils;
 
@@ -14,9 +11,10 @@ import java.util.UUID;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
 @Setter
 @Builder
-@Table(name = "user")
+@Table(name = "users")
 public class UserEntity {
 
 	@Id

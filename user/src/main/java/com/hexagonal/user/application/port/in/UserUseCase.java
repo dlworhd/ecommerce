@@ -6,4 +6,6 @@ public interface UserUseCase {
 	void createUser(User user);
 	void modifyUser(User user);
 	void deleteUser(User user);
+
+	void login(User user);
 }

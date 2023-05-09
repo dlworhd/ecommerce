@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class ApiGatewayConfiguration {
 
 	@Bean
-	RouteLocator routeLocator(RouteLocatorBuilder builder) {
+	RouteLocator routeLocator(RouteLocatorBuilder builder, CustomConfiguration.AuthorizationFilter authorizationFilter) {
 		return builder.routes()
 				.route(p -> p
 						.path("/users/**")
@@ -17,18 +17,22 @@ public class ApiGatewayConfiguration {
 				)
 				.route(p -> p
 						.path("/products/**")
+						.filters(f -> f.filter(authorizationFilter.apply(new CustomConfiguration.AuthorizationFilter.Config())))
 						.uri("http://localhost:8082/")
 				)
 				.route(p -> p
 						.path("/orders/**")
+						.filters(f -> f.filter(authorizationFilter.apply(new CustomConfiguration.AuthorizationFilter.Config())))
 						.uri("http://localhost:8083/")
 				)
 				.route(p -> p
 						.path("/payments/**")
+						.filters(f -> f.filter(authorizationFilter.apply(new CustomConfiguration.AuthorizationFilter.Config())))
 						.uri("http://localhost:8084/")
 				)
 				.route(p -> p
 						.path("/shipments/**")
+						.filters(f -> f.filter(authorizationFilter.apply(new CustomConfiguration.AuthorizationFilter.Config())))
 						.uri("http://localhost:8085/")
 				)
 				.build();
