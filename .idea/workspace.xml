@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518850c3-8651-44f2-a02a-798221dc63d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderItemEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/in/ProductUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/in/ProductUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/out/ProductPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/out/ProductPersistencePort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/application/service/ShipmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/application/service/ShipmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +45,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/shipment">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/user">
       <ProjectState />
     </projectState>
   </component>
@@ -117,8 +111,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -146,7 +140,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/j/j/app/hexagonal-architecture",
+    "last_opened_file_path": "/Users/j/j/app/hexagonal-architecture/user/src/main/java/com/hexagonal/user",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -167,10 +161,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hexagonal.user.infrastructure.jpa" />
+      <recent name="com.hexagonal.user.domain" />
       <recent name="com.hexagonal.shipment.infrastructure.rest" />
       <recent name="com.hexagonal.order.domain.model" />
       <recent name="com.hexagonal.order.infrastructure.jpa.entity" />
-      <recent name="com.hexagonal.hexagonal.domain.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -187,7 +185,7 @@
       <recent name="com.hexagonal.order.infrastructure.jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication (1)">
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hexagonal.apigateway.ApiGatewayApplication" />
       <module name="api-gateway.main" />
@@ -354,11 +352,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Gradle./Users/j/j/app/hexagonal-architecture/payment [build]" />
       <item itemvalue="Gradle./Users/j/j/app/hexagonal-architecture/payment [clean]" />
       <item itemvalue="Gradle.order [cleanQuerydslSourcesDir]" />
+      <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.CommonApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -393,7 +399,7 @@
       <workItem from="1683348986603" duration="5822000" />
       <workItem from="1683354880827" duration="24402000" />
       <workItem from="1683467865235" duration="38096000" />
-      <workItem from="1683564925451" duration="2238000" />
+      <workItem from="1683564925451" duration="6519000" />
     </task>
     <servers />
   </component>

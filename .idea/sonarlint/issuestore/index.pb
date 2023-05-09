@@ -13,14 +13,10 @@ B
 order/build.gradle,a/e/aeac4a66d347b9d9ebd7ccb20b0e0b04264f7117
 D
 payment/build.gradle,9/7/972844c796e2509c5fe3d3c3f622026c146db6ac
-E
-shipment/build.gradle,d/6/d60ac225cf826901ca32198d05a21f076895d63a
 D
 product/build.gradle,a/7/a76cbfcb530149cde8a9645b1e4835c843c7aa6a
 ƒ
 Seureka-server/src/main/java/com/hexagonal/eurekaserver/EurekaServerApplication.java,0/d/0d14fad874d93b32bc45714f058350d4cf2fcba7
-
-Oapi-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayConfiguration.java,5/a/5a875b8e398540edf037b5e4a8c190fd896a3d8f
 }
 Mapi-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayApplication.java,c/2/c2e26b34cdd5083992da9e935132281588319972
 Ž

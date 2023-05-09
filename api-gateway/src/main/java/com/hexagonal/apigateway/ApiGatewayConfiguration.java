@@ -12,20 +12,24 @@ public class ApiGatewayConfiguration {
 	RouteLocator routeLocator(RouteLocatorBuilder builder) {
 		return builder.routes()
 				.route(p -> p
-						.path("/products/**")
+						.path("/users/**")
 						.uri("http://localhost:8081/")
 				)
 				.route(p -> p
-						.path("/orders/**")
+						.path("/products/**")
 						.uri("http://localhost:8082/")
 				)
 				.route(p -> p
-						.path("/payments/**")
+						.path("/orders/**")
 						.uri("http://localhost:8083/")
 				)
 				.route(p -> p
-						.path("/shipments/**")
+						.path("/payments/**")
 						.uri("http://localhost:8084/")
+				)
+				.route(p -> p
+						.path("/shipments/**")
+						.uri("http://localhost:8085/")
 				)
 				.build();
 	}
