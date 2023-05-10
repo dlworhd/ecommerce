@@ -13,14 +13,8 @@ D
 product/build.gradle,a/7/a76cbfcb530149cde8a9645b1e4835c843c7aa6a
 É
 Seureka-server/src/main/java/com/hexagonal/eurekaserver/EurekaServerApplication.java,0/d/0d14fad874d93b32bc45714f058350d4cf2fcba7
-}
-Mapi-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayApplication.java,c/2/c2e26b34cdd5083992da9e935132281588319972
-é
-^order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryImpl.java,2/9/29700af3a9ee684c9d5189042df328c883ae6cd6
 |
 Lorder/src/main/java/com/hexagonal/order/application/config/CustomConfig.java,a/9/a956eb1ba42f0dcdfc10495093756380378a5085
-ä
-Zorder/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepository.java,c/8/c8cd46f3bfa155f2bca09e16923421983bf9956a
 
 Opayment/src/main/java/com/hexagonal/payment/application/config/KafkaConfig.java,b/d/bd3931a1c2d48dd130c3e13d03898a57d9dae3f4
 ê
@@ -51,7 +45,5 @@ Ipayment/src/main/java/com/hexagonal/payment/domain/kakaopay/KakaoPay.java,9/4/
 \payment/src/main/java/com/hexagonal/payment/application/port/out/PaymentPersistencePort.java,a/e/aedd8f4862020364d9ada5844a7098307a95e10a
 ï
 epayment/src/main/java/com/hexagonal/payment/infrastructure/adapter/out/PaymentPersistenceAdapter.java,0/9/09f3e448aa1660240b99d98db4ef01087995f632
-{
-Korder/src/main/java/com/hexagonal/order/infrastructure/jpa/OrderStatus.java,a/7/a7707b3ab092ef90856df114e71aca72d0f54ef5
 Ñ
 Torder/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderSequence.java,3/4/34962e97cf17653086d97ddef207e58c6acfa9a3

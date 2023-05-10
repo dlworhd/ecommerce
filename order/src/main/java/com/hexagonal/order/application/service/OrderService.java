@@ -9,6 +9,7 @@ import com.hexagonal.order.application.port.out.OrderPersistencePort;
 import com.hexagonal.order.domain.KakaoPay;
 import com.hexagonal.order.application.config.LocalDateTimeDeserializer;
 import com.hexagonal.order.domain.Order;
+import com.hexagonal.order.domain.OrderInfo;
 import com.hexagonal.order.infrastructure.jpa.OrderStatus;
 import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
 import jakarta.annotation.PostConstruct;
@@ -86,7 +87,10 @@ public class OrderService implements OrderUseCase {
 		orderPersistencePort.cancelOrder(orderId);
 	}
 
-
+	@Override
+	public List<OrderInfo.Simple> getOrders(Order order) {
+		return orderPersistencePort.getOrders(order);
+	}
 
 
 	private void paymentRequest(KakaoPay.ReadyResponse readyResponse) {
@@ -135,6 +139,6 @@ public class OrderService implements OrderUseCase {
 		//TODO: productIds보내서 OrderName 만들기
 
 		HttpEntity<List<Long>> httpEntity = new HttpEntity<>(productIds, null);
-		return restTemplate.postForObject("http://localhost:8081/products/name", httpEntity, String.class);
+		return restTemplate.postForObject("http://localhost:8082/products/name", httpEntity, String.class);
 	}
 }

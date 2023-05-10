@@ -2,6 +2,7 @@ package com.hexagonal.order.infrastructure.adapter.out;
 
 import com.hexagonal.order.application.port.out.OrderPersistencePort;
 import com.hexagonal.order.domain.Order;
+import com.hexagonal.order.domain.OrderInfo;
 import com.hexagonal.order.infrastructure.jpa.*;
 import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
 import com.hexagonal.order.infrastructure.jpa.entity.OrderItemEntity;
@@ -36,6 +37,12 @@ public class OrderPersistenceAdapter implements OrderPersistencePort {
 	public void cancelOrder(String orderId) {
 		OrderEntity order = getOrderById(orderId);
 		order.setOrderStatus(OrderStatus.CANCELED);
+	}
+
+	@Override
+	public List<OrderInfo.Simple> getOrders(Order order) {
+		List<OrderEntity> orders = orderRepository.findOrderWithOrderItemsById(order.getUserId());
+		return orders.stream().map(orderEntity -> OrderInfo.Simple.from(orderEntity)).collect(Collectors.toList());
 	}
 
 

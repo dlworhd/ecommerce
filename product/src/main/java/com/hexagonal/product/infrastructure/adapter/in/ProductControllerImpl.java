@@ -42,7 +42,7 @@ public class ProductControllerImpl implements ProductController{
 	}
 
 	@Override
-	public ResponseEntity<?> getProductsName(List<Long> productIds) {
+	public ResponseEntity<?> getProductsName(@RequestBody List<Long> productIds) {
 		return ResponseEntity.ok(productUseCase.getProductsName(productIds));
 	}
 }

@@ -8,6 +8,7 @@ import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 @Entity
 @AllArgsConstructor
@@ -16,7 +17,7 @@ import java.util.List;
 @Getter
 @Setter
 @Table(name = "orders")
-public class OrderEntity {
+public class OrderEntity extends BaseEntity {
 
 	@Id
 	@Column(name = "order_id")
@@ -28,12 +29,15 @@ public class OrderEntity {
 	@OneToMany(mappedBy = "order")
 	List<OrderItemEntity> orderItemEntities;
 
+	private UUID userId;
+
 	private String addr;
 	private String name;
 	private String phoneNum;
 
 	public static OrderEntity from(Order order, OrderGenerator orderGenerator) {
 		return OrderEntity.builder()
+				.userId(order.getUserId())
 				.id(orderGenerator.generateOrderId())
 				.addr(order.getAddr())
 				.phoneNum(order.getPhoneNum())

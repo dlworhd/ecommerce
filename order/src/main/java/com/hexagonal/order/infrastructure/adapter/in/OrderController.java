@@ -13,7 +13,6 @@ public interface OrderController {
 	@PutMapping("/orders/cancel/{orderId}")
 	ResponseEntity<?> cancelOrder(@PathVariable String orderId);
 
-//	@GetMapping("/orders/{orderId}/pay-url")
-//	ResponseEntity<?> getPayUrl(@PathVariable String orderId);
-
+	@GetMapping("/orders")
+	ResponseEntity<?> orderList(@RequestBody Order order);
 }
