@@ -13,25 +13,25 @@ import java.util.List;
 public class ProductPersistenceAdapter implements ProductPersistencePort {
 
 	private final ProductRepository productRepository;
+	private final ProductInventoryEntityRepository productInventoryEntityRepository;
 
 	@Override
-	@Transactional
 	public void createProduct(CreateProduct createProduct) {
-		productRepository.save(ProductEntity.from(createProduct));
+		ProductEntity product = productRepository.save(ProductEntity.from(createProduct));
+		productInventoryEntityRepository.save(ProductInventoryEntity.from(product, createProduct.getQuantity()));
 	}
 
 	@Override
-	@Transactional
 	public void modifyProduct(CreateProduct createProduct, Long productId) {
 		ProductEntity productEntity = getProductEntity(productId);
 		productEntity.copy(createProduct);
 	}
 
 	@Override
-	@Transactional
 	public void deleteProduct(Long productId) {
 		ProductEntity productEntity = getProductEntity(productId);
 		productRepository.delete(productEntity);
+		productInventoryEntityRepository.deleteById(productEntity.getId());
 	}
 
 	@Override

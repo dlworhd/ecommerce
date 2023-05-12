@@ -5,18 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518850c3-8651-44f2-a02a-798221dc63d5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/in/OrderUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/in/OrderUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/out/OrderPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/out/OrderPersistencePort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/in/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/in/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/in/OrderControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/in/OrderControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/out/OrderPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/out/OrderPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/domain/model/CreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/domain/model/CreateProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-configure-server/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,13 @@
     <projectState path="$PROJECT_DIR$/product/payment">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/seller">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/shipment">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/spring-cloud-config-server">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/user">
@@ -76,31 +88,12 @@
         <task path="$PROJECT_DIR$/user">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/shipment">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="payment" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="payment" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="payment" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="payment" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="querydsl" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -140,8 +133,8 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17 (2)",
-    "last_opened_file_path": "/Users/j/j/app/hexagonal-architecture/api-gateway/src/main/java/com/hexagonal/apigateway",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/j/j/app/hexagonal-architecture/seller/src/main/java/com/hexagonal",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -150,7 +143,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39234447",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "0be00a9a60853f046b773de518a09790",
+    "spring.configuration.checksum": "65c7da1ab916bd87e5a6b742fef308db",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -169,6 +162,7 @@
       <recent name="com.hexagonal.order.infrastructure.jpa.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/seller/src/main/java/com/hexagonal" />
       <recent name="$PROJECT_DIR$/api-gateway/src/main/java/com/hexagonal/apigateway" />
       <recent name="$PROJECT_DIR$/common/src/main/java/com/hexagonal/common/util" />
       <recent name="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user" />
@@ -183,19 +177,20 @@
       <recent name="com.hexagonal.order.infrastructure.rest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hexagonal.product.infrastructure.adapter.out" />
       <recent name="com.hexagonal.user.domain" />
       <recent name="com.hexagonal.payment.domain" />
       <recent name="com.hexagonal.order.domain" />
       <recent name="com.hexagonal.order.infrastructure.jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentApplication">
-    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.user.UserApplication" />
-      <module name="user.main" />
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.apigateway.ApiGatewayApplication" />
+      <module name="api-gateway.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexagonal.user.*" />
+          <option name="PATTERN" value="com.hexagonal.apigateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,128 +198,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="order [cleanQuerydslSourcesDir]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/order" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="cleanQuerydslSourcesDir" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="payment [cleanQuerydslSourcesDir]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/payment" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="cleanQuerydslSourcesDir" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="user [cleanQuerydslSourcesDir]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/user" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="cleanQuerydslSourcesDir" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="api-gateway.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.apigateway.ApiGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="common.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.common.CommonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="eureka-server.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.eurekaserver.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HexagonalApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="ProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.ProductApplication" />
       <module name="product.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.hexagonal.HexagonalApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HexagonalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="hexagonal.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.hexagonal.HexagonalApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="order.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.order.OrderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="payment_main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.payment.PaymentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="payment.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.payment.PaymentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="product.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.ProductApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hexagonal.*" />
@@ -335,60 +211,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="product.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.product.ProductApplication" />
+    <configuration name="SellerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.seller.SellerApplication" />
+      <module name="seller.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexagonal.seller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShipmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="shipment.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.shipment.ShipmentApplication" />
+    <configuration name="SpringCloudConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.springcloudconfigserver.SpringCloudConfigServerApplication" />
+      <module name="spring-cloud-config-server.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexagonal.springcloudconfigserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="product.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ProductApplication" />
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.apigateway.ApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="user.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.user.UserApplication" />
+    <configuration name="SellerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seller.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.seller.SellerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexagonal.seller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UserApplication" />
-      <item itemvalue="Gradle.payment [cleanQuerydslSourcesDir]" />
-      <item itemvalue="Gradle.user [cleanQuerydslSourcesDir]" />
-      <item itemvalue="Gradle.order [cleanQuerydslSourcesDir]" />
-      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Application.ApiGatewayApplication" />
+      <item itemvalue="Application.ProductApplication" />
+      <item itemvalue="Application.SellerApplication" />
+      <item itemvalue="Application.SpringCloudConfigServerApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      <item itemvalue="Spring Boot.CommonApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.HexagonalApplication" />
-      <item itemvalue="Spring Boot.HexagonalApplication (1)" />
-      <item itemvalue="Spring Boot.OrderApplication" />
-      <item itemvalue="Spring Boot.PaymentApplication" />
-      <item itemvalue="Spring Boot.PaymentApplication (1)" />
-      <item itemvalue="Spring Boot.ProductApplication" />
-      <item itemvalue="Spring Boot.Unnamed" />
-      <item itemvalue="Spring Boot.ShipmentApplication" />
-      <item itemvalue="Spring Boot.ProductApplication (1)" />
+      <item itemvalue="Spring Boot.SellerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.payment [cleanQuerydslSourcesDir]" />
-        <item itemvalue="Spring Boot.ProductApplication (1)" />
-        <item itemvalue="Gradle.order [cleanQuerydslSourcesDir]" />
-        <item itemvalue="Application.UserApplication" />
-        <item itemvalue="Gradle.user [cleanQuerydslSourcesDir]" />
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Spring Boot.SellerApplication" />
+        <item itemvalue="Application.SellerApplication" />
+        <item itemvalue="Application.ProductApplication" />
+        <item itemvalue="Application.SpringCloudConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +286,8 @@
       <workItem from="1683348986603" duration="5822000" />
       <workItem from="1683354880827" duration="24402000" />
       <workItem from="1683467865235" duration="38096000" />
-      <workItem from="1683564925451" duration="29220000" />
+      <workItem from="1683564925451" duration="44437000" />
+      <workItem from="1683883269625" duration="7776000" />
     </task>
     <servers />
   </component>

@@ -31,6 +31,9 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class OrderService implements OrderUseCase {
 
+	@Value("${product-server}")
+	private String PRODUCT_SERVER;
+
 	@Value("${payment-server}")
 	private String PAYMENT_SERVER;
 
@@ -96,7 +99,7 @@ public class OrderService implements OrderUseCase {
 	private void paymentRequest(KakaoPay.ReadyResponse readyResponse) {
 		HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.APPLICATION_JSON);
-		ResponseEntity<String> exchange = restTemplate.postForEntity(PAYMENT_SERVER + "/payments", new HttpEntity<>(readyResponse, headers), String.class);
+		ResponseEntity<String> exchange = restTemplate.postForEntity(PAYMENT_SERVER + "payments", new HttpEntity<>(readyResponse, headers), String.class);
 
 		if (exchange.getStatusCode() != HttpStatus.OK) {
 			throw new RuntimeException("Failed saving tid!");
@@ -112,9 +115,9 @@ public class OrderService implements OrderUseCase {
 		params.add("quantity", order.getTotalQuantity());
 		params.add("total_amount", order.getTotalAmount());
 		params.add("tax_free_amount", 0);
-		params.add("approval_url", PAYMENT_SERVER + "/payments" + "/approval?partner_order_id=" + order.getId());
-		params.add("fail_url", PAYMENT_SERVER + "/payments" + "/fail");
-		params.add("cancel_url", PAYMENT_SERVER + "/payments" + "/cancel");
+		params.add("approval_url", PAYMENT_SERVER + "payments" + "/approval?partner_order_id=" + order.getId());
+		params.add("fail_url", PAYMENT_SERVER + "payments" + "/fail");
+		params.add("cancel_url", PAYMENT_SERVER + "payments" + "/cancel");
 		return params;
 	}
 
@@ -139,6 +142,6 @@ public class OrderService implements OrderUseCase {
 		//TODO: productIds보내서 OrderName 만들기
 
 		HttpEntity<List<Long>> httpEntity = new HttpEntity<>(productIds, null);
-		return restTemplate.postForObject("http://localhost:8082/products/name", httpEntity, String.class);
+		return restTemplate.postForObject(PRODUCT_SERVER + "products/name", httpEntity, String.class);
 	}
 }

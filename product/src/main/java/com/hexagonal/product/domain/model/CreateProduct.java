@@ -13,5 +13,6 @@ public class CreateProduct {
 
 	private String productName;
 	private Long price;
+	private Integer quantity;
 
 }

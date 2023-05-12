@@ -19,6 +19,7 @@ dependencies {
     implementation 'org.apache.kafka:kafka-clients:3.4.0'
     implementation 'org.springframework.kafka:spring-kafka:3.0.4'
     implementation 'mysql:mysql-connector-java:8.0.32'
+    implementation 'org.springframework.cloud:spring-cloud-starter'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.0.0'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-aop'

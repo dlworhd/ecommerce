@@ -1,0 +1,9 @@
+
+m
+java:S6204-"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(าเ๘ÿÿÿÿ
+i
+java:S16129"NReplace this lambda with method reference 'orderEntity::addOrderItemEntities'.(ÿฆืýÿÿÿÿ
+o
+java:S6204C"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ชจน8ดþ๐ฐ€1
+]
+java:S1612B"BReplace this lambda with method reference 'OrderItemEntity::from'.(คÿธÿÿÿÿÿ

@@ -13,6 +13,10 @@ public class ApiGatewayConfiguration {
 		return builder.routes()
 				.route(p -> p
 						.path("/users/**")
+						.uri("http://localhost:8080/")
+				)
+				.route(p -> p
+						.path("/sellers/**")
 						.uri("http://localhost:8081/")
 				)
 				.route(p -> p
