@@ -1,8 +1,7 @@
 package com.hexagonal.product.infrastructure.adapter.in;
 
 import com.hexagonal.product.application.port.in.ProductUseCase;
-import com.hexagonal.product.application.service.ProductService;
-import com.hexagonal.product.domain.model.CreateProduct;
+import com.hexagonal.product.domain.model.ProductDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -16,29 +15,26 @@ import java.util.List;
 public class ProductControllerImpl implements ProductController{
 
 	private final ProductUseCase productUseCase;
-	private final KafkaTemplate<String, CreateProduct> kafkaTemplate;
+	private final KafkaTemplate<String, ProductDto.Request> kafkaTemplate;
 	private final String TOPIC = "product-topic";
 
-	public void sendMessage(CreateProduct createProduct){
-		kafkaTemplate.send(TOPIC, createProduct);
+	public void sendMessage(ProductDto.Request request){
+		kafkaTemplate.send(TOPIC, request);
 	}
 
 	@Override
-	public ResponseEntity<Void> createProduct(@RequestBody CreateProduct createProduct) {
-		productUseCase.createProduct(createProduct);
-		return ResponseEntity.ok().build();
+	public ResponseEntity<?> createProduct(@RequestBody ProductDto.Request request) {
+		return ResponseEntity.ok(productUseCase.createProduct(request));
 	}
 
 	@Override
-	public ResponseEntity<Void> modifyProduct(@RequestBody CreateProduct createProduct, Long productId) {
-		productUseCase.modifyProduct(createProduct, productId);
-		return ResponseEntity.ok().build();
+	public ResponseEntity<?> modifyProduct(@RequestBody ProductDto.Request request, Long productId) {
+		return ResponseEntity.ok(productUseCase.modifyProduct(request, productId));
 	}
 
 	@Override
-	public ResponseEntity<Void> deleteProduct(@RequestBody Long productId) {
-		productUseCase.deleteProduct(productId);
-		return ResponseEntity.ok().build();
+	public ResponseEntity<?> deleteProduct(@RequestBody Long productId) {
+		return ResponseEntity.ok(productUseCase.deleteProduct(productId));
 	}
 
 	@Override

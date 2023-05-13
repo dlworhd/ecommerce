@@ -1,8 +1,7 @@
 package com.hexagonal.product.infrastructure.adapter.out;
 
-import com.hexagonal.product.domain.model.CreateProduct;
 import com.hexagonal.product.application.port.out.ProductPersistencePort;
-import jakarta.transaction.Transactional;
+import com.hexagonal.product.domain.model.ProductDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -16,22 +15,26 @@ public class ProductPersistenceAdapter implements ProductPersistencePort {
 	private final ProductInventoryEntityRepository productInventoryEntityRepository;
 
 	@Override
-	public void createProduct(CreateProduct createProduct) {
-		ProductEntity product = productRepository.save(ProductEntity.from(createProduct));
-		productInventoryEntityRepository.save(ProductInventoryEntity.from(product, createProduct.getQuantity()));
+	public ProductDto.Response createProduct(ProductDto.Request request) {
+		ProductEntity product = productRepository.save(ProductEntity.from(request));
+		productInventoryEntityRepository.save(ProductInventoryEntity.from(product, request.getQuantity()));
+
+		return ProductDto.Response.from(product);
 	}
 
 	@Override
-	public void modifyProduct(CreateProduct createProduct, Long productId) {
-		ProductEntity productEntity = getProductEntity(productId);
-		productEntity.copy(createProduct);
+	public ProductDto.Response modifyProduct(ProductDto.Request request, Long productId) {
+		ProductEntity product = getProductEntity(productId);
+		product.copy(request);
+		return ProductDto.Response.from(product);
 	}
 
 	@Override
-	public void deleteProduct(Long productId) {
-		ProductEntity productEntity = getProductEntity(productId);
-		productRepository.delete(productEntity);
-		productInventoryEntityRepository.deleteById(productEntity.getId());
+	public ProductDto.Response deleteProduct(Long productId) {
+		ProductEntity product = getProductEntity(productId);
+		productRepository.delete(product);
+		productInventoryEntityRepository.deleteById(product.getId());
+		return ProductDto.Response.from(product);
 	}
 
 	@Override

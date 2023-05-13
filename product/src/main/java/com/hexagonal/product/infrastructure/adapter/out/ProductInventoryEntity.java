@@ -1,10 +1,7 @@
 package com.hexagonal.product.infrastructure.adapter.out;
 
-import com.hexagonal.product.domain.model.CreateProduct;
 import jakarta.persistence.*;
 import lombok.*;
-
-import java.time.LocalDate;
 
 @Entity
 @Builder

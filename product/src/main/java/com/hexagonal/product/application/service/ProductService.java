@@ -1,8 +1,8 @@
 package com.hexagonal.product.application.service;
 
 import com.hexagonal.product.application.port.in.ProductUseCase;
-import com.hexagonal.product.domain.model.CreateProduct;
 import com.hexagonal.product.application.port.out.ProductPersistencePort;
+import com.hexagonal.product.domain.model.ProductDto;
 import com.hexagonal.product.infrastructure.adapter.out.ProductEntity;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -19,20 +19,20 @@ public class ProductService implements ProductUseCase {
 
 	@Override
 	@Transactional
-	public void createProduct(CreateProduct createProduct) {
-		productPersistencePort.createProduct(createProduct);
+	public ProductDto.Response createProduct(ProductDto.Request request) {
+		return productPersistencePort.createProduct(request);
 	}
 
 	@Override
 	@Transactional
-	public void modifyProduct(CreateProduct createProduct, Long productId) {
-		productPersistencePort.modifyProduct(createProduct, productId);
+	public ProductDto.Response modifyProduct(ProductDto.Request request, Long productId) {
+		return productPersistencePort.modifyProduct(request, productId);
 	}
 
 	@Override
 	@Transactional
-	public void deleteProduct(Long productId) {
-		productPersistencePort.deleteProduct(productId);
+	public ProductDto.Response deleteProduct(Long productId) {
+		return productPersistencePort.deleteProduct(productId);
 	}
 
 

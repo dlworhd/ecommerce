@@ -1,7 +1,7 @@
 package com.hexagonal.product.infrastructure.adapter.out;
 
 
-import com.hexagonal.product.domain.model.CreateProduct;
+import com.hexagonal.product.domain.model.ProductDto;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -25,16 +25,16 @@ public class ProductEntity {
 	private LocalDate createdAt;
 
 
-	public static ProductEntity from(CreateProduct createProduct) {
+	public static ProductEntity from(ProductDto.Request request) {
 		return ProductEntity.builder()
-				.productName(createProduct.getProductName())
-				.price(createProduct.getPrice())
+				.productName(request.getProductName())
+				.price(request.getPrice())
 				.createdAt(LocalDate.now())
 				.build();
 	}
 
-	public void copy(CreateProduct createProduct) {
-		this.productName = createProduct.getProductName();
-		this.price = createProduct.getPrice();
+	public void copy(ProductDto.Request request) {
+		this.productName = request.getProductName();
+		this.price = request.getPrice();
 	}
 }
