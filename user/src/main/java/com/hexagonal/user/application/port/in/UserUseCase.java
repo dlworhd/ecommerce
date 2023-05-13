@@ -1,11 +1,10 @@
 package com.hexagonal.user.application.port.in;
 
-import com.hexagonal.user.domain.User;
+import com.hexagonal.user.domain.UserDto;
 
 public interface UserUseCase {
-	void createUser(User user);
-	void modifyUser(User user);
-	void deleteUser(User user);
-
-	void login(User user);
+	UserDto.Response createUser(UserDto.Request user);
+//	UserDto.Response modifyUser(UserDto.Request user);
+	UserDto.Response deleteUser(UserDto.Request user);
+	UserDto.Response login(UserDto.Request user);
 }

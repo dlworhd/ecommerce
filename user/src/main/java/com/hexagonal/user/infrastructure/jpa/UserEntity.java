@@ -1,6 +1,6 @@
 package com.hexagonal.user.infrastructure.jpa;
 
-import com.hexagonal.user.domain.User;
+import com.hexagonal.user.domain.UserDto;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
@@ -29,7 +29,7 @@ public class UserEntity {
 	@Enumerated(EnumType.STRING)
 	private UserStatus userStatus;
 
-	public static UserEntity from(User user){
+	public static UserEntity from(UserDto.Request user){
 		return UserEntity.builder()
 				.email(user.getEmail())
 				.password(user.getPassword())
@@ -37,8 +37,8 @@ public class UserEntity {
 				.build();
 	}
 
-	public void update(User user){
-		BeanUtils.copyProperties(user, this);
-	}
+//	public void update(User user){
+//		BeanUtils.copyProperties(user, this);
+//	}
 
 }

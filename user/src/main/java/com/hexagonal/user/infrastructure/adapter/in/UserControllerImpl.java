@@ -2,8 +2,7 @@ package com.hexagonal.user.infrastructure.adapter.in;
 
 import com.hexagonal.user.application.port.in.UserUseCase;
 import com.hexagonal.user.application.util.jwt.TokenProvider;
-import com.hexagonal.user.domain.Token;
-import com.hexagonal.user.domain.User;
+import com.hexagonal.user.domain.UserDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,23 +15,24 @@ public class UserControllerImpl implements UserController {
 	private final TokenProvider tokenProvider;
 
 	@Override
-	public void createUser(User user) {
-		userUseCase.createUser(user);
+	public ResponseEntity<?> createUser(UserDto.Request user) {
+		return ResponseEntity.ok(userUseCase.createUser(user));
 	}
 
 //	@Override
-//	public void modifyUser(User user) {
+//	public void modifyUser(UserDto.Request user) {
 //		userUseCase.modifyUser(user);
 //	}
 
 	@Override
-	public void deleteUser(User user) {
-		userUseCase.deleteUser(user);
+	public ResponseEntity<?> deleteUser(UserDto.Request user) {
+		return ResponseEntity.ok(userUseCase.deleteUser(user));
 	}
 
 	@Override
-	public ResponseEntity<?> login(User user) {
-		userUseCase.login(user);
-		return ResponseEntity.ok(Token.builder().token(tokenProvider.createToken(user.getEmail())).build());
+	public ResponseEntity<?> login(UserDto.Request user) {
+		UserDto.Response response = userUseCase.login(user);
+		response.setToken(tokenProvider.createToken(user.getEmail()));
+		return ResponseEntity.ok(response);
 	}
 }

@@ -1,6 +1,5 @@
 package com.hexagonal.user.infrastructure.jpa;
 
-import com.hexagonal.user.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
