@@ -58,7 +58,7 @@ class ProductServiceTest {
 	@Test
 	@DisplayName("상품 삭제")
 	void deleteProduct() {
-		
+
 		when(productService.deleteProduct(1L)).thenReturn(ProductDto.Response.builder().productId(1L).build());
 
 		ProductDto.Response product = productService.deleteProduct(1L);

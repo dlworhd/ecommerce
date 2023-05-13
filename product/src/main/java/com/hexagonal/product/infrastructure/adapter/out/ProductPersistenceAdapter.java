@@ -25,8 +25,20 @@ public class ProductPersistenceAdapter implements ProductPersistencePort {
 	@Override
 	public ProductDto.Response modifyProduct(ProductDto.Request request, Long productId) {
 		ProductEntity product = getProductEntity(productId);
+		ProductInventoryEntity productInventory = getProductInventory(productId);
 		product.copy(request);
+
+		if(productInventory.getQuantity() > request.getQuantity()){
+			productInventory.decreaseQuantity(productInventory.getQuantity() - request.getQuantity());
+		} else if(productInventory.getQuantity() < request.getQuantity()) {
+			productInventory.increaseQuantity(request.getQuantity() - productInventory.getQuantity());
+		}
+
 		return ProductDto.Response.from(product);
+	}
+
+	private ProductInventoryEntity getProductInventory(Long productId) {
+		return productInventoryEntityRepository.findById(productId).orElseThrow(() -> new RuntimeException("재고 정보를 찾을 수 없습니다."));
 	}
 
 	@Override

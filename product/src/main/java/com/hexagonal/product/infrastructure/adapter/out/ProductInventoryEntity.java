@@ -22,4 +22,15 @@ public class ProductInventoryEntity {
 				.quantity(quantity)
 				.build();
 	}
+
+	public void increaseQuantity(Integer quantity){
+		Integer existingQuantity = this.quantity;
+		this.quantity = existingQuantity + quantity;
+	}
+
+	public void decreaseQuantity(Integer quantity){
+		Integer existingQuantity = this.quantity;
+		if(existingQuantity < quantity) throw new RuntimeException("설정하신 양보다 재고가 더 적습니다.");
+		this.quantity = existingQuantity - quantity;
+	}
 }
