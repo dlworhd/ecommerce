@@ -1,6 +1,6 @@
 package com.hexagonal.order.infrastructure.jpa.entity;
 
-import com.hexagonal.order.domain.Order;
+import com.hexagonal.order.domain.OrderDto;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -25,7 +25,7 @@ public class OrderItemEntity {
 	private Long totalQuantity;
 	private Long totalAmount;
 
-	public static OrderItemEntity from(Order.ProductInfo productInfo) {
+	public static OrderItemEntity from(OrderDto.ProductInfo productInfo) {
 
 		return OrderItemEntity.builder()
 				.totalAmount(productInfo.getPrice() * productInfo.getQuantity())

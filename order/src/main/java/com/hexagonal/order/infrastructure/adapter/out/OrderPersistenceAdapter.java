@@ -1,7 +1,7 @@
 package com.hexagonal.order.infrastructure.adapter.out;
 
 import com.hexagonal.order.application.port.out.OrderPersistencePort;
-import com.hexagonal.order.domain.Order;
+import com.hexagonal.order.domain.OrderDto;
 import com.hexagonal.order.domain.OrderInfo;
 import com.hexagonal.order.infrastructure.jpa.*;
 import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
@@ -23,30 +23,37 @@ public class OrderPersistenceAdapter implements OrderPersistencePort {
 	private final OrderItemRepository orderItemRepository;
 
 	@Override
-	public OrderEntity createOrder(Order order) {
-		OrderEntity orderEntity = saverOrder(order);
-		addOrderItemInOrder(orderEntity, getOrderItemEntities(order));
-		return orderEntity;
+	public OrderDto.Response createOrder(OrderDto.Request request) {
+		OrderEntity orderEntity = saverOrder(request);
+		addOrderItemInOrder(orderEntity, getOrderItemEntities(request));
+		return OrderDto.Response.from(orderEntity);
 	}
 
-	private OrderEntity saverOrder(Order order) {
-		return orderRepository.save(OrderEntity.from(order, orderGenerator));
-	}
-
-	@Override
-	public void cancelOrder(String orderId) {
-		OrderEntity order = getOrderById(orderId);
-		order.setOrderStatus(OrderStatus.CANCELED);
+	private OrderEntity saverOrder(OrderDto.Request request) {
+		return orderRepository.save(OrderEntity.from(request, orderGenerator));
 	}
 
 	@Override
-	public List<OrderInfo.Simple> getOrders(Order order) {
-		List<OrderEntity> orders = orderRepository.findOrderWithOrderItemsById(order.getUserId());
-		return orders.stream().map(orderEntity -> OrderInfo.Simple.from(orderEntity)).collect(Collectors.toList());
+	public OrderDto.Response cancelOrder(String orderId) {
+		OrderEntity orderEntity = getOrderById(orderId);
+		orderEntity.setOrderStatus(OrderStatus.CANCELED);
+		return OrderDto.Response.builder()
+				.orderId(orderEntity.getId())
+				.build();
+	}
+
+	public List<OrderInfo.Simple> getOrders(OrderDto.Request request) {
+		List<OrderEntity> orderEntities = orderRepository.findOrderWithOrderItemsById(request.getUserId());
+		return orderEntities.stream().map(orderEntity -> OrderInfo.Simple.from(orderEntity)).collect(Collectors.toList());
+	}
+
+	@Override
+	public void changeStatus(String orderId, OrderStatus orderStatus) {
+		OrderEntity orderEntity = getOrder(orderId);
+		orderEntity.changeStatus(orderStatus);
 	}
 
 
-	@Override
 	public OrderEntity getOrder(String orderId) {
 		return getOrderById(orderId);
 	}
@@ -57,11 +64,11 @@ public class OrderPersistenceAdapter implements OrderPersistencePort {
 				.forEach(orderItemEntity -> orderEntity.addOrderItemEntities(orderItemEntity));
 	}
 
-	private List<OrderItemEntity> getOrderItemEntities(Order order) {
-		return orderItemRepository.saveAll(getOrderItemEntitiesFromInfos(order.getProductInfos()));
+	private List<OrderItemEntity> getOrderItemEntities(OrderDto.Request request) {
+		return orderItemRepository.saveAll(getOrderItemEntitiesFromInfos(request.getProductInfos()));
 	}
 
-	private List<OrderItemEntity> getOrderItemEntitiesFromInfos(List<Order.ProductInfo> productInfoList) {
+	private List<OrderItemEntity> getOrderItemEntitiesFromInfos(List<OrderDto.ProductInfo> productInfoList) {
 		return productInfoList.stream()
 				.map(productInfo -> OrderItemEntity.from(productInfo))
 				.collect(Collectors.toList());

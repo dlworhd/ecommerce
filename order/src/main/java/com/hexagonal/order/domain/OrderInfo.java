@@ -2,13 +2,10 @@ package com.hexagonal.order.domain;
 
 import com.hexagonal.order.infrastructure.jpa.OrderStatus;
 import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
-import com.hexagonal.order.infrastructure.jpa.entity.OrderItemEntity;
-import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
 import java.util.List;
-import java.util.UUID;
 
 
 public class OrderInfo {
@@ -46,7 +43,7 @@ public class OrderInfo {
 		private String addr;
 		private String phoneNum;
 		private OrderStatus orderStatus;
-		private List<Order.ProductInfo> productInfos;
+		private List<OrderDto.ProductInfo> productInfos;
 
 
 	}

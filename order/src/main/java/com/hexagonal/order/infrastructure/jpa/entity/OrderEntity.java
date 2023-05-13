@@ -1,6 +1,6 @@
 package com.hexagonal.order.infrastructure.jpa.entity;
 
-import com.hexagonal.order.domain.Order;
+import com.hexagonal.order.domain.OrderDto;
 import com.hexagonal.order.infrastructure.jpa.OrderGenerator;
 import com.hexagonal.order.infrastructure.jpa.OrderStatus;
 import jakarta.persistence.*;
@@ -35,13 +35,13 @@ public class OrderEntity extends BaseEntity {
 	private String name;
 	private String phoneNum;
 
-	public static OrderEntity from(Order order, OrderGenerator orderGenerator) {
+	public static OrderEntity from(OrderDto.Request request, OrderGenerator orderGenerator) {
 		return OrderEntity.builder()
-				.userId(order.getUserId())
+				.userId(request.getUserId())
 				.id(orderGenerator.generateOrderId())
-				.addr(order.getAddr())
-				.phoneNum(order.getPhoneNum())
-				.name(order.getName())
+				.addr(request.getAddr())
+				.phoneNum(request.getPhoneNum())
+				.name(request.getName())
 				.orderStatus(OrderStatus.NOT_ORDERED)
 				.build();
 	}
@@ -77,4 +77,7 @@ public class OrderEntity extends BaseEntity {
 				.sum();
 	}
 
+	public void changeStatus(OrderStatus orderStatus){
+		this.orderStatus = orderStatus;
+	}
 }
