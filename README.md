@@ -1,5 +1,5 @@
 <div align="center"> 
-<img width="30%" src="https://github.com/scvefg/msa-ecommerce-backend/assets/102597172/ee852a3c-00f8-4f95-a617-d395bcccb6cb">
+<img width="50%" src="https://github.com/scvefg/msa-ecommerce-backend/assets/102597172/ee852a3c-00f8-4f95-a617-d395bcccb6cb">
 </div>
 
 <br>
