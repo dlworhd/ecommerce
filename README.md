@@ -28,7 +28,7 @@
 |API-Gateway Server|각각 포트가 다른 서버들의 요청을 가로챈 후 원하는 사전(JWT Token 검증) & 사후 필터링을 하고 라우팅 기능을 제공하는 서버|
 |Eureka Server|서버 상태 및 다수의 포트 관리를 위한 서버|
 |User Server|회원가입 및 로그인, 로그아웃, 정보 수정 및 JWT Token 발급을 위한 서버|
-|Seller Server|판매자 등록, 탈퇴 및 판매자 JWT Token 발급을 위한 서버|
+|Seller Server|판매자 등록 및 판매자 JWT Token 발급을 위한 서버|
 |Product Server|상품 등록, 수정, 삭제 및 조회 등의 서비스를 제공하는 서버|
 |Order Server|상품 주문과 관련된 프로세스를 처리하는 서버|
 |Payment Server|주문 후 결제를 담당하는 서버(KakaoPay API)|
