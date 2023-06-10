@@ -48,7 +48,7 @@ public class KafkaConfig {
 		props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
 		props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
 		props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
-		props.put(ConsumerConfig.GROUP_ID_CONFIG, "test-group");
+		props.put(ConsumerConfig.GROUP_ID_CONFIG, "payment-group");
 		return props;
 	}
 

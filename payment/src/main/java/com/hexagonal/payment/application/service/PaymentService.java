@@ -26,7 +26,6 @@ import java.time.LocalDateTime;
 @RequiredArgsConstructor
 public class PaymentService implements PaymentUseCase {
 
-
 	@Value("${kakao.cid}")
 	private String cid;
 
