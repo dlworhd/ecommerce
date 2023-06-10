@@ -5,155 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518850c3-8651-44f2-a02a-798221dc63d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29a094f4-623f-4db4-b330-e06d3830afd9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29a094f4-623f-4db4-b330-e06d3830afd9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29a094f4-623f-4db4-b330-e06d3830afd9/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29a094f4-623f-4db4-b330-e06d3830afd9/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d1d381d-b7e2-486f-8813-e2e4f45e08d5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d1d381d-b7e2-486f-8813-e2e4f45e08d5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d1d381d-b7e2-486f-8813-e2e4f45e08d5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d1d381d-b7e2-486f-8813-e2e4f45e08d5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d14f890-f886-438d-9374-3a079a804d0f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d14f890-f886-438d-9374-3a079a804d0f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d14f890-f886-438d-9374-3a079a804d0f/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d14f890-f886-438d-9374-3a079a804d0f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db6b53c-b646-47cd-a57f-dd85bea0f09d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db6b53c-b646-47cd-a57f-dd85bea0f09d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db6b53c-b646-47cd-a57f-dd85bea0f09d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db6b53c-b646-47cd-a57f-dd85bea0f09d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/seller.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/045d6fe760b8d870ee9b1d59b0eac72883536ceb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/0996222f366362da4fb0ace60d6f72d22ff8d099" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09f3e448aa1660240b99d98db4ef01087995f632" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d14fad874d93b32bc45714f058350d4cf2fcba7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147a8b4d2fcd699dcc9aa3996bdbc94ad21f4e83" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1938334889a9b24bd95aa0907d3501209cf29e1f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f83da753d3f3602cf4d11b218b79842a91cef78" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26f7a88ddcc67b4265cd0f1865e46f483806daeb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29700af3a9ee684c9d5189042df328c883ae6cd6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2aaa9585f289b070c694b608265983b4c35f3b08" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34962e97cf17653086d97ddef207e58c6acfa9a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38ecd9882e87e58f9906d50d24258b582c49f8d5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38ecd9882e87e58f9906d50d24258b582c49f8d5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d94b63bf3a4ceae84ec3d484e4b11f926c5d8c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/4509e242310b0e3bec81a85e3b422dc6cdee0be7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45dfde261ad70173232d015d7347d45a2a585e1b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47b7622be2c1ced1230cd670d308ebdd927247c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/575aa1c7e301ec4ba3b916eda898647970bfd641" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5cda821a639ece1903f69af8c3f666757e1e8fbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/605908830d64840182d34ff435984fcaec4e2ee4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bfa1a0ea54b64e60ff26a6917074919da020bcb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fcb016c045824ed45f37b06f5506609fe63979c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77646ae73517a7ec23451fb9fd634c1349617e0d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c2b8c6088d4b41729a86a8a3cc1c446b5a864c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85f6a08e3c001455384c7a45c18f31591a6c2b04" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88651fa193c07897d32f79cdcbeb032aebd1f589" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899e01f1cdb6b2c07ad5a9dcddf0e06dbbf28341" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91642facccca1a778f7624d7159bf772acd0e1ef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/926f3c0072d8ffed034ab5418b00a4ab803f7479" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/972844c796e2509c5fe3d3c3f622026c146db6ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9738964083dfe657e85b961c287db948d1524e43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98604a208b5b7cf510471ea8069c34719e98f0ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99809bcb15460834ba8f907b4b94bcb68b853f89" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a76cbfcb530149cde8a9645b1e4835c843c7aa6a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7707b3ab092ef90856df114e71aca72d0f54ef5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a956eb1ba42f0dcdfc10495093756380378a5085" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a956eb1ba42f0dcdfc10495093756380378a5085" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abeddf9fd675d1a75883a9e715c8ce4dc70c879b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/adca321955e05e0354f40f49e9fcdbb24138db0b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aeac4a66d347b9d9ebd7ccb20b0e0b04264f7117" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedd8f4862020364d9ada5844a7098307a95e10a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd3931a1c2d48dd130c3e13d03898a57d9dae3f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfaf347c5602c19b08b76425f95aa0173bf6a675" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c478f93fa361ecb254b94c3d8999f4374e9e96c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c768e85005f8dfb248a828ccd2e8b47ef59c95a9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8cd46f3bfa155f2bca09e16923421983bf9956a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8f03ed3a4d779718601db881cd18652e8145e33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd4a3aad8b97fc6ecb8366e03aa3275ba23ca5c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1141f27e2710e71809f28878b9602f570cf6619" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d32c294c68fe75ceb1d6d70f5f60d83c5b9066d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4adb0067de0ad3ba5c6704d77439d6884c071c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d60ac225cf826901ca32198d05a21f076895d63a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d63a4920ac847777a902ab57c6d6f2a51fadc1ea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e38bb91ece5b20e5b924907b5fc835a47aa0ee59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fefc86924d4ff4c2bef52d2e5a5dcaca4b4e9148" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff1f984a0b2ac12463fec4262089354181120633" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f0039fe429fed14e49cd565390c88fc2b477f3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1de43d638e8feba82c8815a191375bd65946c7f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22a13df3c17683c5d1a4a10251c3ea84cfeb7df0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38ecd9882e87e58f9906d50d24258b582c49f8d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a875b8e398540edf037b5e4a8c190fd896a3d8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68a416ff071be67c370ccc417719b65106ae9180" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7976b30d65df70da2b59d33be8c94ae46c75f456" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c0424958dcde70ab00d77554b9ebeb2a8464c80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ce26656b332b78c8cebe0f58c9790140587b23d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c1b641ec64889eaaa81bd422e6200cef5517c61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/9430c22ead43aada5503ef9d36d76d74012c68b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a289cbebb1a3f986eef4dec3784748f95d555f04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a956eb1ba42f0dcdfc10495093756380378a5085" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/aff875fdbc834ce44eefb3ae4b32eca17a932ce9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd80f4a9b0f18736dc6793c387129fa09f5f96b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ead9cb12b63656ee2c8d6c995feb6c98707b6677" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f18bf72ecd72d3a8b14b0b47164d277448b06699" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/in/OrderUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/in/OrderUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/out/OrderPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/out/OrderPersistencePort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/OrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/OrderInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/in/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/in/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/in/OrderControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/in/OrderControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/out/OrderPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/OrderGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderItemEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderRepositoryCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderSequenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderSequenceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/test/java/com/hexagonal/order/infrastructure/jpa/entity/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/test/java/com/hexagonal/order/infrastructure/jpa/entity/OrderServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/port/out/PaymentPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/port/out/PaymentPersistencePort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/domain/kakaopay/KakaoPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/domain/kakaopay/KakaoPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/adapter/in/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/in/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/adapter/in/PaymentControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/in/PaymentControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/adapter/out/PaymentPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/jpa/entity/PaymentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/jpa/entity/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/jpa/entity/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/jpa/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/out/ProductPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/out/ProductPersistencePort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/domain/model/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/domain/model/ProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/in/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/in/ProductControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductInventoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductInventoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductInventoryEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductInventoryEntityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/hexagonal/product/infrastructure/adapter/out/DomainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/test/java/com/hexagonal/product/infrastructure/adapter/out/DomainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/adapter/in/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/in/SellerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/adapter/in/SellerControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/in/SellerControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/adapter/out/SellerPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/out/SellerPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/jpa/SellerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/out/SellerEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/jpa/SellerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/out/SellerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/jpa/SellerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/out/SellerStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/adapter/in/ShipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/in/ShipmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/adapter/in/ShipmentControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/in/ShipmentControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/adapter/out/ShipmentPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/out/ShipmentPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/jpa/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/out/Shipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/jpa/ShipmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/out/ShipmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/jpa/ShipmentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/out/ShipmentStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/domain/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/domain/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/adapter/in/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/in/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/adapter/in/UserControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/in/UserControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/adapter/out/UserPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/out/UserPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/jpa/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/out/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/jpa/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/out/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/jpa/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/out/UserStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user/application/service/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user/application/service/UserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user/application/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user/application/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,9 +100,70 @@
         <task path="$PROJECT_DIR$/product">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/seller">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api-gateway" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api-gateway" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api-gateway" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="order" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -239,8 +175,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -252,41 +188,44 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/j/j/app/hexagonal-architecture&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.39234447&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3f116caaa1ae31e795c2b5be598073bb&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "/Users/j/j/app/hexagonal-architecture/user/src/test/java/com/hexagonal/user",
+    "last_opened_file_path": "/Users/j/j/app/ecommerce",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.39234447",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "ba6269ac2e23ffa482ac06f6354f6d83",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -299,12 +238,15 @@
       <recent name="com.hexagonal.order.infrastructure.jpa.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/seller/src/main/java/com/hexagonal" />
-      <recent name="$PROJECT_DIR$/api-gateway/src/main/java/com/hexagonal/apigateway" />
-      <recent name="$PROJECT_DIR$/common/src/main/java/com/hexagonal/common/util" />
-      <recent name="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user" />
+      <recent name="$PROJECT_DIR$/order/src/main/resources" />
+      <recent name="$PROJECT_DIR$/order/src/main/resources/d" />
+      <recent name="$PROJECT_DIR$/payment/src/main/resources" />
+      <recent name="$PROJECT_DIR$/payment/src/main/resources/s" />
+      <recent name="$PROJECT_DIR$/product/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user/src/main/resources" />
+      <recent name="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user" />
       <recent name="$PROJECT_DIR$/" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -325,86 +267,134 @@
       <recent name="com.hexagonal.order.infrastructure.jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderServiceTest.cancelOrder">
-    <configuration name="DomainTest.decreaseFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product.test" />
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
+    <configuration name="OrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.order.OrderApplication" />
+      <module name="order.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexagonal.product.infrastructure.adapter.out.*" />
+          <option name="PATTERN" value="com.hexagonal.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexagonal.product.infrastructure.adapter.out" />
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.product.infrastructure.adapter.out.DomainTest" />
-      <option name="METHOD_NAME" value="decreaseFail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DomainTest.decreaseSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="product.test" />
+    <configuration name="ProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_PORT" value="3306" />
+        <env name="DB_USERNAME" value="root" />
+        <env name="DB_PASSWORD" value="dlwodud821" />
+        <env name="KAFKA_HOST" value="localhost" />
+        <env name="KAFKA_PORT" value="9092" />
+        <env name="Spring.Profiles.Active" value="prod" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.ProductApplication" />
+      <module name="product.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexagonal.product.infrastructure.adapter.out.*" />
+          <option name="PATTERN" value="com.hexagonal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexagonal.product.infrastructure.adapter.out" />
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.product.infrastructure.adapter.out.DomainTest" />
-      <option name="METHOD_NAME" value="decreaseSuccess" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest.cancelOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order.test" />
+    <configuration name="UserApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <envs>
+        <env name="DB_PASSWORD" value="dlwodud821" />
+        <env name="DB_USERNAME" value="root" />
+        <env name="spring.profiles.active" value="prod" />
+        <env name="HOST" value="localhost" />
+        <env name="MYSQL_HOST" value="localhost" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.user.UserApplication" />
+      <module name="user.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexagonal.order.infrastructure.adapter.out.*" />
+          <option name="PATTERN" value="com.hexagonal.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexagonal.order.infrastructure.jpa.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.order.infrastructure.jpa.entity.OrderServiceTest" />
-      <option name="METHOD_NAME" value="cancelOrder" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest.changeStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexagonal.order.infrastructure.adapter.out.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexagonal.order.infrastructure.jpa.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.order.infrastructure.jpa.entity.OrderServiceTest" />
-      <option name="METHOD_NAME" value="changeStatus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="api-gateway [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="OrderServiceTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexagonal.order.infrastructure.adapter.out.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexagonal.order.infrastructure.jpa.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.order.infrastructure.jpa.entity.OrderServiceTest" />
-      <option name="METHOD_NAME" value="createOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="order [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/order" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="product [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/product" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="product.main" />
@@ -426,6 +416,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.order.OrderApplication" />
@@ -433,9 +430,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.payment.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="prod" />
       <module name="product.main" />
+      <option name="PROGRAM_PARAMETERS" value="DB_HOST=localhost;DB_PORT=3306;DB_USERNAME=root;DB_PASSWORD=dlwodud821;KAFKA_HOST=localhost;KAFKA_PORT=9092;Spring.Profiles.Active=prod" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.ProductApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SellerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seller.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.seller.SellerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShipmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shipment.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.shipment.ShipmentApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -447,12 +477,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JUnit.DomainTest.decreaseFail" />
-      <item itemvalue="JUnit.DomainTest.decreaseSuccess" />
-      <item itemvalue="JUnit.OrderServiceTest.cancelOrder" />
-      <item itemvalue="JUnit.OrderServiceTest.changeStatus" />
-      <item itemvalue="JUnit.OrderServiceTest.createOrder" />
+      <item itemvalue="Application.UserApplication" />
+      <item itemvalue="Application.ProductApplication" />
+      <item itemvalue="Application.OrderApplication" />
+      <item itemvalue="Gradle.api-gateway [build]" />
+      <item itemvalue="Gradle.order [clean]" />
+      <item itemvalue="Gradle.product [clean]" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication" />
+      <item itemvalue="Spring Boot.SellerApplication" />
+      <item itemvalue="Spring Boot.ShipmentApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
@@ -460,15 +499,18 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderServiceTest.cancelOrder" />
-        <item itemvalue="JUnit.OrderServiceTest.createOrder" />
-        <item itemvalue="JUnit.OrderServiceTest.changeStatus" />
-        <item itemvalue="JUnit.DomainTest.decreaseFail" />
-        <item itemvalue="JUnit.DomainTest.decreaseSuccess" />
+        <item itemvalue="Gradle.order [clean]" />
+        <item itemvalue="Application.OrderApplication" />
+        <item itemvalue="Gradle.product [clean]" />
+        <item itemvalue="Application.ProductApplication" />
+        <item itemvalue="Gradle.api-gateway [build]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="518850c3-8651-44f2-a02a-798221dc63d5" name="Changes" comment="" />
@@ -487,7 +529,25 @@
       <workItem from="1684310427198" duration="5417000" />
       <workItem from="1684387636622" duration="2950000" />
       <workItem from="1684417119346" duration="1201000" />
-      <workItem from="1684473461558" duration="918000" />
+      <workItem from="1684473461558" duration="11849000" />
+      <workItem from="1684825277182" duration="2160000" />
+      <workItem from="1684935545342" duration="5066000" />
+      <workItem from="1685071832897" duration="3223000" />
+      <workItem from="1685165854701" duration="661000" />
+      <workItem from="1685194506713" duration="464000" />
+      <workItem from="1685209930553" duration="977000" />
+      <workItem from="1685211678836" duration="728000" />
+      <workItem from="1685283821437" duration="1210000" />
+      <workItem from="1685455597381" duration="3704000" />
+      <workItem from="1685722218206" duration="2738000" />
+      <workItem from="1685725180370" duration="1714000" />
+      <workItem from="1685730637783" duration="1135000" />
+      <workItem from="1685767631352" duration="400000" />
+      <workItem from="1686037413291" duration="808000" />
+      <workItem from="1686069966257" duration="8335000" />
+      <workItem from="1686106569711" duration="17114000" />
+      <workItem from="1686160709768" duration="905000" />
+      <workItem from="1686187231781" duration="42691000" />
     </task>
     <servers />
   </component>
@@ -501,6 +561,11 @@
           <url>file://$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/rest/ProductController.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/in/OrderUseCase.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/port/out/PaymentPersistencePort.java</url>
