@@ -33,7 +33,7 @@ public class ProductEntity {
 				.build();
 	}
 
-	public void copy(ProductDto.Request request) {
+	public void update(ProductDto.Request request) {
 		this.productName = request.getProductName();
 		this.price = request.getPrice();
 	}

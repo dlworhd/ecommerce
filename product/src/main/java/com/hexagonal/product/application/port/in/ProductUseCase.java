@@ -10,4 +10,6 @@ public interface ProductUseCase {
 	ProductDto.Response modifyProduct(ProductDto.Request request, Long productId);
 	ProductDto.Response deleteProduct(Long productId);
 	String getProductsName(List<Long> productIds);
+
+	List<ProductDto.Simple> getProducts();
 }

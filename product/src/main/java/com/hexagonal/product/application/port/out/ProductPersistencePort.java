@@ -4,6 +4,7 @@ import com.hexagonal.product.domain.model.ProductDto;
 import com.hexagonal.product.adapter.out.ProductEntity;
 
 import java.util.List;
+import java.util.Map;
 
 public interface ProductPersistencePort {
 
@@ -11,5 +12,10 @@ public interface ProductPersistencePort {
 	ProductDto.Response modifyProduct(ProductDto.Request request, Long productId);
 	ProductDto.Response deleteProduct(Long productId);
 
-	List<ProductEntity> getProducts(List<Long> productIds);
+	void modifyInventory(Map<Long, Long> productMap);
+
+
+	List<ProductEntity> getProductEntityByIds(List<Long> productIds);
+
+	List<ProductEntity> getProducts();
 }

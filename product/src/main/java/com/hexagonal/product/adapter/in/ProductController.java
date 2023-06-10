@@ -8,6 +8,10 @@ import java.util.List;
 
 public interface ProductController {
 
+
+	@GetMapping("/products")
+	ResponseEntity<?> getProducts();
+
 	@PostMapping("/products")
 	ResponseEntity<?> createProduct(@RequestBody ProductDto.Request request);
 
