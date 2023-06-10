@@ -4,6 +4,7 @@ import com.hexagonal.user.domain.UserDto;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.UUID;
 
@@ -28,10 +29,10 @@ public class UserEntity {
 	@Enumerated(EnumType.STRING)
 	private UserStatus userStatus;
 
-	public static UserEntity from(UserDto.Request user){
+	public static UserEntity from(UserDto.Request user, PasswordEncoder passwordEncoder){
 		return UserEntity.builder()
 				.email(user.getEmail())
-				.password(user.getPassword())
+				.password(passwordEncoder.encode(user.getPassword()))
 				.userStatus(UserStatus.ACTIVE)
 				.build();
 	}

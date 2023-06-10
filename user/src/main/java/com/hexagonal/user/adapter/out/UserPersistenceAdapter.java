@@ -3,6 +3,7 @@ package com.hexagonal.user.adapter.out;
 import com.hexagonal.user.application.port.out.UserPersistencePort;
 import com.hexagonal.user.domain.UserDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -10,12 +11,12 @@ import org.springframework.stereotype.Component;
 public class UserPersistenceAdapter implements UserPersistencePort {
 
 	private final UserRepository userRepository;
+	private final PasswordEncoder passwordEncoder;
 
 	@Override
 	public UserDto.Response createUser(UserDto.Request user) {
 		if (userRepository.existsByEmail(user.getEmail())) throw new RuntimeException("Duplicated User!");
-		UserEntity userEntity = userRepository.save(UserEntity.from(user));
-
+		UserEntity userEntity = userRepository.save(UserEntity.from(user, passwordEncoder));
 		return UserDto.Response.from(userEntity);
 
 	}
@@ -44,12 +45,11 @@ public class UserPersistenceAdapter implements UserPersistencePort {
 	public UserDto.Response login(UserDto.Request user) {
 		UserEntity userEntity = getUserEntityByEmail(user.getEmail());
 
-		if (!userEntity.getPassword().equals(user.getPassword())) {
+		if (!passwordEncoder.matches(user.getPassword(), userEntity.getPassword())) {
 			throw new RuntimeException("Password not equal");
 		}
 
 		UserDto.Response response = UserDto.Response.from(userEntity);
-
 		return response;
 	}
 }

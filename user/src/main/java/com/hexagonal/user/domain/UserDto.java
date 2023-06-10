@@ -4,6 +4,7 @@ import com.hexagonal.user.adapter.out.UserEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
@@ -11,6 +12,7 @@ public class UserDto {
 
 	@Getter
 	@Builder
+	@NoArgsConstructor
 	@AllArgsConstructor
 	public static class Request {
 
