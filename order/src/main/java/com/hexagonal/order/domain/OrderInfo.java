@@ -1,7 +1,7 @@
 package com.hexagonal.order.domain;
 
-import com.hexagonal.order.infrastructure.jpa.OrderStatus;
-import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
+import com.hexagonal.order.adapter.out.OrderStatus;
+import com.hexagonal.order.adapter.out.OrderEntity;
 import lombok.*;
 
 import java.time.LocalDate;

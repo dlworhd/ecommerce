@@ -5,24 +5,155 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518850c3-8651-44f2-a02a-798221dc63d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22d222ac-bf7b-4ae4-85ed-3cd88afc7c5e/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29a094f4-623f-4db4-b330-e06d3830afd9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29a094f4-623f-4db4-b330-e06d3830afd9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29a094f4-623f-4db4-b330-e06d3830afd9/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29a094f4-623f-4db4-b330-e06d3830afd9/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d1d381d-b7e2-486f-8813-e2e4f45e08d5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d1d381d-b7e2-486f-8813-e2e4f45e08d5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d1d381d-b7e2-486f-8813-e2e4f45e08d5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d1d381d-b7e2-486f-8813-e2e4f45e08d5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d14f890-f886-438d-9374-3a079a804d0f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d14f890-f886-438d-9374-3a079a804d0f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d14f890-f886-438d-9374-3a079a804d0f/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4d14f890-f886-438d-9374-3a079a804d0f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db6b53c-b646-47cd-a57f-dd85bea0f09d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db6b53c-b646-47cd-a57f-dd85bea0f09d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db6b53c-b646-47cd-a57f-dd85bea0f09d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8db6b53c-b646-47cd-a57f-dd85bea0f09d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ae7fa41-430e-4252-95e5-def16e977d6c/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/seller.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/045d6fe760b8d870ee9b1d59b0eac72883536ceb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/0996222f366362da4fb0ace60d6f72d22ff8d099" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09f3e448aa1660240b99d98db4ef01087995f632" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d14fad874d93b32bc45714f058350d4cf2fcba7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/147a8b4d2fcd699dcc9aa3996bdbc94ad21f4e83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1938334889a9b24bd95aa0907d3501209cf29e1f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f83da753d3f3602cf4d11b218b79842a91cef78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26f7a88ddcc67b4265cd0f1865e46f483806daeb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29700af3a9ee684c9d5189042df328c883ae6cd6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2aaa9585f289b070c694b608265983b4c35f3b08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34962e97cf17653086d97ddef207e58c6acfa9a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38ecd9882e87e58f9906d50d24258b582c49f8d5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38ecd9882e87e58f9906d50d24258b582c49f8d5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d94b63bf3a4ceae84ec3d484e4b11f926c5d8c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/4509e242310b0e3bec81a85e3b422dc6cdee0be7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45dfde261ad70173232d015d7347d45a2a585e1b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47b7622be2c1ced1230cd670d308ebdd927247c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/575aa1c7e301ec4ba3b916eda898647970bfd641" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5cda821a639ece1903f69af8c3f666757e1e8fbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/605908830d64840182d34ff435984fcaec4e2ee4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bfa1a0ea54b64e60ff26a6917074919da020bcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fcb016c045824ed45f37b06f5506609fe63979c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77646ae73517a7ec23451fb9fd634c1349617e0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c2b8c6088d4b41729a86a8a3cc1c446b5a864c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85f6a08e3c001455384c7a45c18f31591a6c2b04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88651fa193c07897d32f79cdcbeb032aebd1f589" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/899e01f1cdb6b2c07ad5a9dcddf0e06dbbf28341" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91642facccca1a778f7624d7159bf772acd0e1ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/926f3c0072d8ffed034ab5418b00a4ab803f7479" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/972844c796e2509c5fe3d3c3f622026c146db6ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9738964083dfe657e85b961c287db948d1524e43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98604a208b5b7cf510471ea8069c34719e98f0ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99809bcb15460834ba8f907b4b94bcb68b853f89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a76cbfcb530149cde8a9645b1e4835c843c7aa6a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a7707b3ab092ef90856df114e71aca72d0f54ef5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a956eb1ba42f0dcdfc10495093756380378a5085" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a956eb1ba42f0dcdfc10495093756380378a5085" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abeddf9fd675d1a75883a9e715c8ce4dc70c879b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/adca321955e05e0354f40f49e9fcdbb24138db0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aeac4a66d347b9d9ebd7ccb20b0e0b04264f7117" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aedd8f4862020364d9ada5844a7098307a95e10a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd3931a1c2d48dd130c3e13d03898a57d9dae3f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfaf347c5602c19b08b76425f95aa0173bf6a675" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c478f93fa361ecb254b94c3d8999f4374e9e96c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c768e85005f8dfb248a828ccd2e8b47ef59c95a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8cd46f3bfa155f2bca09e16923421983bf9956a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8f03ed3a4d779718601db881cd18652e8145e33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd4a3aad8b97fc6ecb8366e03aa3275ba23ca5c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1141f27e2710e71809f28878b9602f570cf6619" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d32c294c68fe75ceb1d6d70f5f60d83c5b9066d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4adb0067de0ad3ba5c6704d77439d6884c071c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d60ac225cf826901ca32198d05a21f076895d63a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d63a4920ac847777a902ab57c6d6f2a51fadc1ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e38bb91ece5b20e5b924907b5fc835a47aa0ee59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fefc86924d4ff4c2bef52d2e5a5dcaca4b4e9148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff1f984a0b2ac12463fec4262089354181120633" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hexagonal/apigateway/ApiGatewayConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/in/OrderUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/in/OrderUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/out/OrderPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/port/out/OrderPersistencePort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/application/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/OrderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/domain/OrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/in/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/in/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/in/OrderControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/in/OrderControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/adapter/out/OrderPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/OrderGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/entity/OrderSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/infrastructure/jpa/repository/OrderSequenceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/hexagonal/order/adapter/out/OrderSequenceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/test/java/com/hexagonal/order/infrastructure/jpa/entity/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/test/java/com/hexagonal/order/infrastructure/jpa/entity/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/port/out/PaymentPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/port/out/PaymentPersistencePort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/application/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/domain/kakaopay/KakaoPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/domain/kakaopay/KakaoPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/adapter/in/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/in/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/adapter/in/PaymentControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/in/PaymentControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/adapter/out/PaymentPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/jpa/entity/PaymentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/jpa/entity/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/jpa/entity/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/infrastructure/jpa/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment/src/main/java/com/hexagonal/payment/adapter/out/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/out/ProductPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/port/out/ProductPersistencePort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/application/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/domain/model/CreateProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/domain/model/CreateProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-configure-server/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/domain/model/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/domain/model/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/in/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/in/ProductControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/in/ProductControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductInventoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductInventoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductInventoryEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductInventoryEntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/infrastructure/adapter/out/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/hexagonal/product/adapter/out/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/hexagonal/product/infrastructure/adapter/out/DomainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/test/java/com/hexagonal/product/infrastructure/adapter/out/DomainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/adapter/in/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/in/SellerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/adapter/in/SellerControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/in/SellerControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/adapter/out/SellerPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/out/SellerPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/jpa/SellerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/out/SellerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/jpa/SellerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/out/SellerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/infrastructure/jpa/SellerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/seller/src/main/java/com/hexagonal/seller/adapter/out/SellerStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/adapter/in/ShipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/in/ShipmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/adapter/in/ShipmentControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/in/ShipmentControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/adapter/out/ShipmentPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/out/ShipmentPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/jpa/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/out/Shipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/jpa/ShipmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/out/ShipmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/infrastructure/jpa/ShipmentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/shipment/src/main/java/com/hexagonal/shipment/adapter/out/ShipmentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/domain/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/domain/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/adapter/in/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/in/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/adapter/in/UserControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/in/UserControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/adapter/out/UserPersistenceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/out/UserPersistenceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/jpa/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/out/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/jpa/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/out/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/infrastructure/jpa/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/hexagonal/user/adapter/out/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user/application/service/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user/application/service/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user/application/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/test/java/com/hexagonal/user/application/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +222,9 @@
         <task path="$PROJECT_DIR$/shipment">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/product">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -104,9 +238,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -120,39 +254,42 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/j/j/app/hexagonal-architecture/seller/src/main/java/com/hexagonal",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.39234447",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "65c7da1ab916bd87e5a6b742fef308db",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/j/j/app/hexagonal-architecture&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.39234447&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3f116caaa1ae31e795c2b5be598073bb&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "h2",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hexagonal.user.infrastructure.jpa" />
@@ -174,7 +311,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.hexagonal.order.infrastructure.rest" />
+      <recent name="com.hexagonal.order.infrastructure.jpa.entity" />
+      <recent name="com.hexagonal.payment.application.service" />
+      <recent name="com.hexagonal.product.infrastructure.adapter.out" />
+      <recent name="com.hexagonal.product.application.service" />
+      <recent name="com.hexagonal.user.application.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hexagonal.product.infrastructure.adapter.out" />
@@ -184,55 +325,96 @@
       <recent name="com.hexagonal.order.infrastructure.jpa.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApiGatewayApplication">
-    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.apigateway.ApiGatewayApplication" />
-      <module name="api-gateway.main" />
+  <component name="RunManager" selected="JUnit.OrderServiceTest.cancelOrder">
+    <configuration name="DomainTest.decreaseFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexagonal.apigateway.*" />
+          <option name="PATTERN" value="com.hexagonal.product.infrastructure.adapter.out.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.hexagonal.product.infrastructure.adapter.out" />
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.product.infrastructure.adapter.out.DomainTest" />
+      <option name="METHOD_NAME" value="decreaseFail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.ProductApplication" />
+    <configuration name="DomainTest.decreaseSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexagonal.product.infrastructure.adapter.out.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexagonal.product.infrastructure.adapter.out" />
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.product.infrastructure.adapter.out.DomainTest" />
+      <option name="METHOD_NAME" value="decreaseSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.cancelOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexagonal.order.infrastructure.adapter.out.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexagonal.order.infrastructure.jpa.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.order.infrastructure.jpa.entity.OrderServiceTest" />
+      <option name="METHOD_NAME" value="cancelOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.changeStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexagonal.order.infrastructure.adapter.out.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexagonal.order.infrastructure.jpa.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.order.infrastructure.jpa.entity.OrderServiceTest" />
+      <option name="METHOD_NAME" value="changeStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexagonal.order.infrastructure.adapter.out.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexagonal.order.infrastructure.jpa.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.hexagonal.order.infrastructure.jpa.entity.OrderServiceTest" />
+      <option name="METHOD_NAME" value="createOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="product.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexagonal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SellerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.seller.SellerApplication" />
-      <module name="seller.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexagonal.seller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringCloudConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hexagonal.springcloudconfigserver.SpringCloudConfigServerApplication" />
-      <module name="spring-cloud-config-server.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexagonal.springcloudconfigserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="product.main" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,34 +426,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SellerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="seller.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.seller.SellerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexagonal.seller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexagonal.user.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ApiGatewayApplication" />
-      <item itemvalue="Application.ProductApplication" />
-      <item itemvalue="Application.SellerApplication" />
-      <item itemvalue="Application.SpringCloudConfigServerApplication" />
+      <item itemvalue="JUnit.DomainTest.decreaseFail" />
+      <item itemvalue="JUnit.DomainTest.decreaseSuccess" />
+      <item itemvalue="JUnit.OrderServiceTest.cancelOrder" />
+      <item itemvalue="JUnit.OrderServiceTest.changeStatus" />
+      <item itemvalue="JUnit.OrderServiceTest.createOrder" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      <item itemvalue="Spring Boot.SellerApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiGatewayApplication" />
-        <item itemvalue="Spring Boot.SellerApplication" />
-        <item itemvalue="Application.SellerApplication" />
-        <item itemvalue="Application.ProductApplication" />
-        <item itemvalue="Application.SpringCloudConfigServerApplication" />
+        <item itemvalue="JUnit.OrderServiceTest.cancelOrder" />
+        <item itemvalue="JUnit.OrderServiceTest.createOrder" />
+        <item itemvalue="JUnit.OrderServiceTest.changeStatus" />
+        <item itemvalue="JUnit.DomainTest.decreaseFail" />
+        <item itemvalue="JUnit.DomainTest.decreaseSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +480,14 @@
       <workItem from="1683354880827" duration="24402000" />
       <workItem from="1683467865235" duration="38096000" />
       <workItem from="1683564925451" duration="44437000" />
-      <workItem from="1683883269625" duration="7776000" />
+      <workItem from="1683883269625" duration="45306000" />
+      <workItem from="1684162826961" duration="984000" />
+      <workItem from="1684173504535" duration="698000" />
+      <workItem from="1684208808688" duration="6000" />
+      <workItem from="1684310427198" duration="5417000" />
+      <workItem from="1684387636622" duration="2950000" />
+      <workItem from="1684417119346" duration="1201000" />
+      <workItem from="1684473461558" duration="918000" />
     </task>
     <servers />
   </component>

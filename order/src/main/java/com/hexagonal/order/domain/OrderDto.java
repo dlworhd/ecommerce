@@ -1,11 +1,8 @@
 package com.hexagonal.order.domain;
 
-import com.hexagonal.order.infrastructure.jpa.OrderStatus;
-import com.hexagonal.order.infrastructure.jpa.entity.OrderEntity;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import com.hexagonal.order.adapter.out.OrderStatus;
+import com.hexagonal.order.adapter.out.OrderEntity;
+import lombok.*;
 
 import java.util.List;
 import java.util.UUID;
@@ -14,6 +11,7 @@ public class OrderDto {
 
 
 	@AllArgsConstructor
+	@NoArgsConstructor
 	@Builder
 	@Getter
 	public static class Request {
@@ -52,6 +50,7 @@ public class OrderDto {
 	@Setter
 	@Builder
 	@AllArgsConstructor
+	@NoArgsConstructor
 	public static class ProductInfo{
 		private Long id;
 		private Long price;

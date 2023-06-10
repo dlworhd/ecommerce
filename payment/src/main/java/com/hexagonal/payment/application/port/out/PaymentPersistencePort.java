@@ -1,7 +1,7 @@
 package com.hexagonal.payment.application.port.out;
 
 import com.hexagonal.payment.domain.kakaopay.KakaoPay;
-import com.hexagonal.payment.infrastructure.jpa.entity.PaymentEntity;
+import com.hexagonal.payment.adapter.out.PaymentEntity;
 
 public interface PaymentPersistencePort {
 

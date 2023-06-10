@@ -3,17 +3,13 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/api-gateway" />
-    <file type="web" url="file://$PROJECT_DIR$/common" />
     <file type="web" url="file://$PROJECT_DIR$/eureka-server" />
     <file type="web" url="file://$PROJECT_DIR$/order" />
     <file type="web" url="file://$PROJECT_DIR$/payment" />
     <file type="web" url="file://$PROJECT_DIR$/product" />
     <file type="web" url="file://$PROJECT_DIR$/seller" />
     <file type="web" url="file://$PROJECT_DIR$/shipment" />
-    <file type="web" url="file://$PROJECT_DIR$/spring-cloud-config-server" />
     <file type="web" url="file://$PROJECT_DIR$/user" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="17 (2)" project-jdk-type="JavaSDK" />
 </project>

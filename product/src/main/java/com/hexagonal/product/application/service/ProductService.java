@@ -3,7 +3,7 @@ package com.hexagonal.product.application.service;
 import com.hexagonal.product.application.port.in.ProductUseCase;
 import com.hexagonal.product.application.port.out.ProductPersistencePort;
 import com.hexagonal.product.domain.model.ProductDto;
-import com.hexagonal.product.infrastructure.adapter.out.ProductEntity;
+import com.hexagonal.product.adapter.out.ProductEntity;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

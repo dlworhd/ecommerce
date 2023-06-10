@@ -1,7 +1,7 @@
 package com.hexagonal.product.application.port.out;
 
 import com.hexagonal.product.domain.model.ProductDto;
-import com.hexagonal.product.infrastructure.adapter.out.ProductEntity;
+import com.hexagonal.product.adapter.out.ProductEntity;
 
 import java.util.List;
 

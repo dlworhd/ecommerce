@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/hexagonal-architecture.iml" filepath="$PROJECT_DIR$/.idea/hexagonal-architecture.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seller.main.iml" filepath="$PROJECT_DIR$/.idea/modules/seller.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order.main.iml" filepath="$PROJECT_DIR$/.idea/modules/order.main.iml" />
     </modules>
   </component>
 </project>

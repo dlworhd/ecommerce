@@ -7,7 +7,7 @@ import com.hexagonal.order.domain.OrderInfo;
 import java.util.List;
 
 public interface OrderUseCase {
-	//redirect 반환
+
 	OrderDto.Response createOrder(OrderDto.Request request) throws JsonProcessingException;
 	OrderDto.Response cancelOrder(String orderId);
 

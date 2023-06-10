@@ -1,6 +1,6 @@
 package com.hexagonal.product.domain.model;
 
-import com.hexagonal.product.infrastructure.adapter.out.ProductEntity;
+import com.hexagonal.product.adapter.out.ProductEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

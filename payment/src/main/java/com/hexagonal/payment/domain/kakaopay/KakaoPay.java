@@ -1,6 +1,6 @@
 package com.hexagonal.payment.domain.kakaopay;
 
-import com.hexagonal.payment.infrastructure.jpa.entity.PaymentEntity;
+import com.hexagonal.payment.adapter.out.PaymentEntity;
 import lombok.*;
 import org.springframework.beans.factory.annotation.Value;
 
