@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: seller
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${DB_HOST}:${DB_PORT}/ec_seller
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  kafka:
+    bootstrap-servers: ${KAFKA_ADVERTISED_LISTENERS}
+
+jwt:
+  secret: 6db7d12ce6b83355585381ecdd90f4b62e250db79fb0b4eb61d6c4c1ca5ff183e0d8a8f4701f71ebec37580b083a72cf2860a327c9345cf60f937aaba07ac041
+  expiration: 86400000
+
