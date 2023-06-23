@@ -4,30 +4,24 @@ plugins {
     id 'io.spring.dependency-management' version '1.1.0'
 }
 
-group = 'com.hexagonal'
+group = 'com.ecommerce'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
-repositories {
-    mavenCentral()
-    maven { url 'https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates' }
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
 }
 
-ext {
-    set('springCloudVersion', "2022.0.2")
+repositories {
+    mavenCentral()
 }
 
 dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.0.0'
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:4.0.0'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-}
-
-dependencyManagement {
-    imports {
-        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
-    }
 }
 
 tasks.named('test') {
