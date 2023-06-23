@@ -1,0 +1,16 @@
+
+a	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(Î«Œùÿÿÿÿ
+n	java:S116#"YRename this field "PRODUCT_SERVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õíú
+n	java:S116&"YRename this field "PAYMENT_SERVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­‘ÈÓ
+|	java:S116)"bRename this field "PAYMENT_SERVER_APPROVAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Å•ºşÿÿÿÿ
+	java:S116,"^Rename this field "PAYMENT_SERVER_FAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®äÛ£ÿÿÿÿÿ8“¹‚Ù‰1
+z	java:S116/"`Rename this field "PAYMENT_SERVER_CANCEL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¤¼€øÿÿÿÿ
+z	java:S1162"eRename this field "KAKAO_PAYMENT_READY_SERVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íû” 
+h	java:S1168"TRename this field "admin_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›óñV
+v	java:S116;"\Rename this field "FORMATTING_SUFFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¿ä‘ÿÿÿÿÿ
+i
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÓˆèÚ
+V
+java:S1612"?Replace this lambda with method reference 'ProductInfo::getId'.(ÓˆèÚ
+I
+java:S1135"2Complete the task associated to this TODO comment.(íùº¦

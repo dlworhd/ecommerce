@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="gin_product@localhost">
+<dataSource name="ec_user@localhost">
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.45">
     <root id="1">
       <DefaultCasing>mixed/mixed</DefaultCasing>
@@ -120,7 +120,7 @@
 |root||root|localhost|UPDATE|G
 |root||j|localhost|grant option|G
 |root||root|localhost|grant option|G</Grants>
-      <ServerVersion>10.11.2</ServerVersion>
+      <ServerVersion>10.11.3</ServerVersion>
     </root>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
@@ -1312,108 +1312,81 @@
     <collation id="507" parent="1" name="utf8mb4_vietnamese_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="508" parent="1" name="gin_cart">
+    <schema id="508" parent="1" name="ec_order">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="509" parent="1" name="gin_order">
+    <schema id="509" parent="1" name="ec_payment">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="510" parent="1" name="gin_payment">
+    <schema id="510" parent="1" name="ec_product">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="511" parent="1" name="gin_product">
+    <schema id="511" parent="1" name="ec_seller">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="512" parent="1" name="ec_shipment">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="513" parent="1" name="ec_user">
       <Current>1</Current>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="512" parent="1" name="gin_seller">
+    <schema id="514" parent="1" name="gin_seller">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="513" parent="1" name="gin_shipment">
+    <schema id="515" parent="1" name="gin_shipment">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="514" parent="1" name="gin_user">
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="515" parent="1" name="information_schema">
+    <schema id="516" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="516" parent="1" name="mysql">
+    <schema id="517" parent="1" name="mysql">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="517" parent="1" name="performance_schema">
+    <schema id="518" parent="1" name="performance_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="518" parent="1" name="sys">
+    <schema id="519" parent="1" name="sys">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="519" parent="1" name="techestra">
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="520" parent="1" name="yousinsa">
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <user id="521" parent="1" name="j"/>
-    <user id="522" parent="1" name="j">
+    <user id="520" parent="1" name="j"/>
+    <user id="521" parent="1" name="j">
       <Host>localhost</Host>
     </user>
-    <user id="523" parent="1" name="mariadb.sys">
+    <user id="522" parent="1" name="mariadb.sys">
       <Host>localhost</Host>
     </user>
-    <user id="524" parent="1" name="root"/>
-    <user id="525" parent="1" name="root">
+    <user id="523" parent="1" name="root"/>
+    <user id="524" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="526" parent="511" name="product">
+    <table id="525" parent="513" name="users">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="527" parent="511" name="product_inventory">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <column id="528" parent="526" name="id">
-      <AutoIncrement>8</AutoIncrement>
-      <DasType>bigint(20)|0s</DasType>
+    <column id="526" parent="525" name="user_id">
+      <DasType>binary(16)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="529" parent="526" name="created_at">
-      <DasType>date|0s</DasType>
+    <column id="527" parent="525" name="email">
+      <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="530" parent="526" name="price">
-      <DasType>bigint(20)|0s</DasType>
+    <column id="528" parent="525" name="password">
+      <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="531" parent="526" name="product_name">
+    <column id="529" parent="525" name="user_status">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <index id="532" parent="526" name="PRIMARY">
-      <ColNames>id</ColNames>
+    <index id="530" parent="525" name="PRIMARY">
+      <ColNames>user_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="533" parent="526" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="534" parent="527" name="product_id">
-      <DasType>bigint(20)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="535" parent="527" name="quantity">
-      <DasType>int(11)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <index id="536" parent="527" name="PRIMARY">
-      <ColNames>product_id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="537" parent="527" name="PRIMARY">
+    <key id="531" parent="525" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

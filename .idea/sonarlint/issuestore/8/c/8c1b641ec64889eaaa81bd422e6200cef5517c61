@@ -1,0 +1,11 @@
+
+
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "orderId".(ý›Ìþÿÿÿÿ8ªõß”‹1
+X
+java:S1128"=Remove this unused import 'jakarta.annotation.PostConstruct'.(û²ñüþÿÿÿÿ
+P
+java:S1128":Remove this unused import 'jakarta.annotation.PreDestroy'.(÷¡ƒ
+T
+java:S1128">Remove this unused import 'jakarta.transaction.Transactional'.(ß–Ê³
+J
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ

@@ -1,0 +1,11 @@
+
+m
+java:S6204+"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(×ëÜÉûÿÿÿÿ
+i
+java:S1612;"NReplace this lambda with method reference 'orderEntity::addOrderItemEntities'.(ÿŽ¦×ýÿÿÿÿ
+h
+java:S6204E"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹
+]
+java:S1612D"BReplace this lambda with method reference 'OrderItemEntity::from'.(¤ÿ¸ÿÿÿÿÿ
+T
+java:S1128">Remove this unused import 'jakarta.transaction.Transactional'.(ß–Ê³
