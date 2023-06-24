@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.*;
 
 public interface UserController {
 
+	@GetMapping("/users")
+	ResponseEntity<?> users();
+
 	@PostMapping("/users")
 	ResponseEntity<?> createUser(@RequestBody UserDto.Request user);
 

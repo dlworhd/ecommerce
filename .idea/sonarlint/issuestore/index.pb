@@ -63,8 +63,6 @@ p
 @seller/src/main/java/com/hexagonal/seller/SellerApplication.java,0/f/0f0039fe429fed14e49cd565390c88fc2b477f3d
 A
 seller/Dockerfile,b/0/b077262806342e2f74417b1bcc3d5d344aa2e05d
-A
-seller/.gitignore,a/a/aab1172807a20ca281b42f3cae4243acec4b37e5
 s
 Corder/src/main/java/com/hexagonal/order/adapter/out/BaseEntity.java,5/3/53cbe74e5a83972921da15235068966cc702c70f
 x

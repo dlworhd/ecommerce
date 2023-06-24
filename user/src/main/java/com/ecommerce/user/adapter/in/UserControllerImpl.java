@@ -15,6 +15,11 @@ public class UserControllerImpl implements UserController {
 	private final TokenProvider tokenProvider;
 
 	@Override
+	public ResponseEntity<?> users() {
+		return ResponseEntity.ok("success");
+	}
+
+	@Override
 	public ResponseEntity<?> createUser(UserDto.Request user) {
 		return ResponseEntity.ok(userUseCase.createUser(user));
 	}
