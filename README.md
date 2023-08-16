@@ -83,12 +83,12 @@
 - 사양 비례 비용 폭이 크게 증가하는 스케일 업(Scale-Up)에 비해 스케일 아웃(Scale-Out)은 장비를 추가하고 수평적으로 확장할 수 있어 비용이 저렴하기 때문에,
   기존 모놀리식 보다는 마이크로 서비스 아키텍처 방식을 선택
 
-  -->
   
   
 # TroubleShooting
 
 - <a href="https://dlworhd.medium.com/jpa-n-1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94-feat-jpql-c02518672488">[JPA] N+1 이슈 및 쿼리 성능 최적화</a>
 - <a href="https://dlworhd.medium.com/querydsl-attempt-to-recreate-a-file-for-type-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-37022cb10fef">[QueryDSL] Attempt to recreate a file for type 이슈</a>
+  -->
 
 
